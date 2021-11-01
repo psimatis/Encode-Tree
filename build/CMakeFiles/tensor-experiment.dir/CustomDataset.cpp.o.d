@@ -1,12 +1,15 @@
-CMakeFiles/tensor-experiment.dir/main.cpp.o: \
-  /home/panos/encode-tree-cpp/main.cpp \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/torch.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/all.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/cuda.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/WindowsTorchApiMacro.h \
-  /home/PROJECTS/Landmarks/libtorch/include/c10/macros/Export.h \
-  /home/PROJECTS/Landmarks/libtorch/include/c10/macros/cmake_macros.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/cstdint \
+CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.o: \
+  /home/panos/encode-tree-cpp/CustomDataset.cpp \
+  /home/panos/encode-tree-cpp/CustomDataset.h \
+  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/datasets/base.h \
+  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/example.h \
+  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/types.h \
+  /home/PROJECTS/Landmarks/libtorch/include/ATen/ATen.h \
+  /home/PROJECTS/Landmarks/libtorch/include/c10/core/Allocator.h \
+  /usr/lib/llvm-10/lib/clang/10.0.0/include/stddef.h \
+  /usr/lib/llvm-10/lib/clang/10.0.0/include/__stddef_max_align_t.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/memory \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/stl_algobase.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0/bits/c++config.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0/bits/os_defines.h \
   /usr/include/features.h /usr/include/stdc-predef.h \
@@ -16,40 +19,15 @@ CMakeFiles/tensor-experiment.dir/main.cpp.o: \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0/bits/cpu_defines.h \
-  /usr/lib/llvm-10/lib/clang/10.0.0/include/stdint.h \
-  /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/cstddef \
-  /usr/lib/llvm-10/lib/clang/10.0.0/include/stddef.h \
-  /usr/lib/llvm-10/lib/clang/10.0.0/include/__stddef_max_align_t.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/dataloader.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/dataloader/stateful.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/dataloader/base.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/dataloader_options.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/arg.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/utility \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/stl_relops.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/stl_pair.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/move.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/concept_check.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/type_traits \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/initializer_list \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/types.h \
-  /home/PROJECTS/Landmarks/libtorch/include/ATen/ATen.h \
-  /home/PROJECTS/Landmarks/libtorch/include/c10/core/Allocator.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/memory \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/stl_algobase.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/functexcept.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/exception_defines.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/cpp_type_traits.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/ext/type_traits.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/ext/numeric_traits.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/stl_pair.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/move.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/concept_check.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/type_traits \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/stl_iterator_base_types.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/stl_iterator_base_funcs.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/debug/assertions.h \
@@ -79,9 +57,12 @@ CMakeFiles/tensor-experiment.dir/main.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/stringfwd.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/postypes.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/cwchar \
-  /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
   /usr/lib/llvm-10/lib/clang/10.0.0/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
@@ -95,6 +76,8 @@ CMakeFiles/tensor-experiment.dir/main.cpp.o: \
   /usr/include/pthread.h /usr/include/endian.h \
   /usr/include/x86_64-linux-gnu/bits/endian.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -119,11 +102,18 @@ CMakeFiles/tensor-experiment.dir/main.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward/binders.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/uses_allocator.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/unique_ptr.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/utility \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/stl_relops.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/initializer_list \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/tuple \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/array \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/stdexcept \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/string \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/char_traits.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/cstdint \
+  /usr/lib/llvm-10/lib/clang/10.0.0/include/stdint.h \
+  /usr/include/stdint.h /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/localefwd.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0/bits/c++locale.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/clocale \
@@ -171,6 +161,8 @@ CMakeFiles/tensor-experiment.dir/main.cpp.o: \
   /home/PROJECTS/Landmarks/libtorch/include/c10/core/Device.h \
   /home/PROJECTS/Landmarks/libtorch/include/c10/core/DeviceType.h \
   /home/PROJECTS/Landmarks/libtorch/include/c10/macros/Macros.h \
+  /home/PROJECTS/Landmarks/libtorch/include/c10/macros/cmake_macros.h \
+  /home/PROJECTS/Landmarks/libtorch/include/c10/macros/Export.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/sstream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/istream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/ios \
@@ -200,6 +192,7 @@ CMakeFiles/tensor-experiment.dir/main.cpp.o: \
   /home/PROJECTS/Landmarks/libtorch/include/c10/util/Exception.h \
   /home/PROJECTS/Landmarks/libtorch/include/c10/util/StringUtil.h \
   /home/PROJECTS/Landmarks/libtorch/include/c10/util/string_utils.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/cstddef \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/vector \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/stl_vector.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/stl_bvector.h \
@@ -352,6 +345,7 @@ CMakeFiles/tensor-experiment.dir/main.cpp.o: \
   /home/PROJECTS/Landmarks/libtorch/include/ATen/core/interned_strings.h \
   /home/PROJECTS/Landmarks/libtorch/include/ATen/core/aten_interned_strings.h \
   /home/PROJECTS/Landmarks/libtorch/include/ATen/core/QuantizerBase.h \
+  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/WindowsTorchApiMacro.h \
   /home/PROJECTS/Landmarks/libtorch/include/ATen/Utils.h \
   /home/PROJECTS/Landmarks/libtorch/include/ATen/Formatting.h \
   /home/PROJECTS/Landmarks/libtorch/include/ATen/core/Formatting.h \
@@ -481,167 +475,4 @@ CMakeFiles/tensor-experiment.dir/main.cpp.o: \
   /home/PROJECTS/Landmarks/libtorch/include/ATen/ThreadLocalState.h \
   /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/jit/runtime/variable_tensor_list.h \
   /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/utils/memory.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/detail/data_shuttle.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/detail/queue.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/queue \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/stl_queue.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/detail/sequencers.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/iterator.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/samplers/random.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/samplers/base.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/worker_exception.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/dataloader/stateless.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/datasets.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/datasets/base.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/example.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/datasets/chunk.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/datasets/stateful.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/samplers.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/samplers/custom_batch_request.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/samplers/distributed.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/samplers/sequential.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/samplers/serialize.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/serialize/archive.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/serialize/input-archive.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/jit/api/module.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/jit/passes/shape_analysis.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/ordered_dict.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/jit/api/compilation_unit.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/jit/frontend/name_mangler.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/serialize/output-archive.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/samplers/stream.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/serialize.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/serialize/tensor.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/datasets/map.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/datasets/mnist.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/datasets/shared.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/datasets/tensor.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/transforms.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/transforms/base.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/transforms/collate.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/transforms/lambda.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/transforms/stack.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/transforms/tensor.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/enum.h \
-  /home/PROJECTS/Landmarks/libtorch/include/c10/util/variant.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/codecvt \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/fft.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/jit.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/linalg.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/cloneable.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/module.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/any_module_holder.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/any_value.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/detail/static.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/pimpl.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/pimpl-inl.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/utils.h \
-  /home/PROJECTS/Landmarks/libtorch/include/ATen/Parallel.h \
-  /home/PROJECTS/Landmarks/libtorch/include/ATen/Config.h \
-  /home/PROJECTS/Landmarks/libtorch/include/ATen/ParallelOpenMP.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/autograd/grad_mode.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/functional.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/functional/batchnorm.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/options/batchnorm.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/functional/conv.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/options/conv.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/expanding_array.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/functional/distance.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/options/distance.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/functional/dropout.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/options/dropout.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/functional/embedding.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/options/embedding.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/functional/fold.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/options/fold.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/functional/linear.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/functional/loss.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/functional/activation.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/options/activation.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/options/linear.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/options/loss.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/functional/normalization.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/options/normalization.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/functional/padding.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/options/padding.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/functional/pooling.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/options/pooling.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/utils.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/functional/pixelshuffle.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/options/pixelshuffle.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/functional/upsampling.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/options/upsampling.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/functional/vision.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/options/vision.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/functional/instancenorm.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/options/instancenorm.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/init.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/common.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/any.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/functional.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/moduledict.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/modulelist.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/named_any.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/sequential.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/parameterdict.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/parameterlist.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/adaptive.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/linear.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/options/adaptive.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/batchnorm.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/instancenorm.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/conv.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/dropout.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/distance.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/embedding.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/fold.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/loss.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/padding.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/pooling.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/rnn.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/options/rnn.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/utils/rnn.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/pixelshuffle.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/upsampling.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/activation.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/normalization.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/_functions.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/autograd/custom_function.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/autograd/function.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/autograd/anomaly_mode.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/autograd/profiler.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/autograd/profiler_legacy.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/forward_list \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/forward_list.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/forward_list.tcc \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/autograd/profiler_utils.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/autograd/profiler_kineto.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/autograd/saved_variable.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/autograd/input_metadata.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/transformerlayer.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/options/transformerlayer.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/transformercoder.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/options/transformercoder.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/transformer.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/options/transformer.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/options.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/utils.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/utils/clip_grad.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/utils/convert_parameters.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/optim.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/optim/adagrad.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/optim/optimizer.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/optim/serialize.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/optim/adam.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/optim/adamw.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/optim/lbfgs.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/optim/rmsprop.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/optim/sgd.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/autograd.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/autograd/autograd.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/version.h \
-  /home/panos/encode-tree-cpp/CustomDataset.h \
-  /home/panos/encode-tree-cpp/CSVLoader.h \
-  /home/panos/encode-tree-cpp/variational_autoencoder.h
+  /home/panos/encode-tree-cpp/CSVLoader.h

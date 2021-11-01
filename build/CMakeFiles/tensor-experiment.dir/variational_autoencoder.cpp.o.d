@@ -1,6 +1,6 @@
 CMakeFiles/tensor-experiment.dir/variational_autoencoder.cpp.o: \
-  /home/panos/libtorchExample/variational_autoencoder.cpp \
-  /home/panos/libtorchExample/variational_autoencoder.h \
+  /home/panos/encode-tree-cpp/variational_autoencoder.cpp \
+  /home/panos/encode-tree-cpp/variational_autoencoder.h \
   /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/torch.h \
   /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/all.h \
   /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/cuda.h \

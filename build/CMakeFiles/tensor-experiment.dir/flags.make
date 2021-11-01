@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/panos/libtorchExample -isystem /home/PROJECTS/Landmarks/libtorch/include -isystem /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include
+CXX_INCLUDES = -I/home/panos/encode-tree-cpp -isystem /home/PROJECTS/Landmarks/libtorch/include -isystem /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include
 
 CXX_FLAGS = -std=gnu++14
 

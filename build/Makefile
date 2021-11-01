@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/panos/libtorchExample
+CMAKE_SOURCE_DIR = /home/panos/encode-tree-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/panos/libtorchExample/build
+CMAKE_BINARY_DIR = /home/panos/encode-tree-cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/panos/libtorchExample/build/CMakeFiles /home/panos/libtorchExample/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/panos/encode-tree-cpp/build/CMakeFiles /home/panos/encode-tree-cpp/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/panos/libtorchExample/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/panos/encode-tree-cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,6 +128,54 @@ tensor-experiment: cmake_check_build_system
 tensor-experiment/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor-experiment.dir/build.make CMakeFiles/tensor-experiment.dir/build
 .PHONY : tensor-experiment/fast
+
+CSVLoader.o: CSVLoader.cpp.o
+.PHONY : CSVLoader.o
+
+# target to build an object file
+CSVLoader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor-experiment.dir/build.make CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.o
+.PHONY : CSVLoader.cpp.o
+
+CSVLoader.i: CSVLoader.cpp.i
+.PHONY : CSVLoader.i
+
+# target to preprocess a source file
+CSVLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor-experiment.dir/build.make CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.i
+.PHONY : CSVLoader.cpp.i
+
+CSVLoader.s: CSVLoader.cpp.s
+.PHONY : CSVLoader.s
+
+# target to generate assembly for a file
+CSVLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor-experiment.dir/build.make CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.s
+.PHONY : CSVLoader.cpp.s
+
+CustomDataset.o: CustomDataset.cpp.o
+.PHONY : CustomDataset.o
+
+# target to build an object file
+CustomDataset.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor-experiment.dir/build.make CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.o
+.PHONY : CustomDataset.cpp.o
+
+CustomDataset.i: CustomDataset.cpp.i
+.PHONY : CustomDataset.i
+
+# target to preprocess a source file
+CustomDataset.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor-experiment.dir/build.make CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.i
+.PHONY : CustomDataset.cpp.i
+
+CustomDataset.s: CustomDataset.cpp.s
+.PHONY : CustomDataset.s
+
+# target to generate assembly for a file
+CustomDataset.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor-experiment.dir/build.make CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.s
+.PHONY : CustomDataset.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -186,6 +234,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tensor-experiment"
+	@echo "... CSVLoader.o"
+	@echo "... CSVLoader.i"
+	@echo "... CSVLoader.s"
+	@echo "... CustomDataset.o"
+	@echo "... CustomDataset.i"
+	@echo "... CustomDataset.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
