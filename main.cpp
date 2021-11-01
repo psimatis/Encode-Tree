@@ -13,11 +13,13 @@ int main() {
     cout << (cuda_available ? "CUDA available. Training on GPU." : "Training on CPU.") << '\n';
 
     // Hyper parameters
+    int seed = 2;
+    torch::manual_seed(seed);
     const int64_t hSize = 2;
     const int64_t codeSize = 1;
     const int64_t inputSize = 4;
     const int64_t batchSize = 1024;
-    const size_t epochs = 1;
+    const size_t epochs = 3;
     const double learning_rate = 1e-3;
 
 	// Data
@@ -31,35 +33,30 @@ int main() {
     model->to(device);
     torch::optim::Adam optimizer(model->parameters(), torch::optim::AdamOptions(learning_rate));
 
-    // Set floating point output precision
-    cout << fixed << setprecision(4);
-
     // Train the model
     for (size_t epoch = 0; epoch != epochs; ++epoch) {
-        torch::Tensor inputs;
+        torch::Tensor input, output;
+        double epochLoss = 0;;
         size_t batch_index = 0;
         model->train();
 
         for (auto& batch : *dataloader) {
-            // Transfer images to device
-            inputs = batch.data.reshape({-1, inputSize}).to(device);
-
-            // Forward pass
-            auto output = model->forward(inputs);
-			auto loss = torch::nn::functional::mse_loss(output, inputs);
-
-            // Backward pass and optimize
+            input = batch.data.to(device);
+           	output = model->forward(input);
+			auto loss = torch::nn::functional::mse_loss(output, input);
             optimizer.zero_grad();
             loss.backward();
             optimizer.step();
-
+  
             if ((batch_index + 1) % 100 == 0) {
-                cout << "Epoch [" << epoch + 1 << "/" << epochs 
-                	<< "], Step [" << batch_index + 1 << "/" << num_samples / batchSize 
+                cout << "Epoch [" << epoch + 1 << "/" << epochs
+                	<< "], Step [" << batch_index + 1 << "/" << num_samples / batchSize
                 	<< "], Loss: " << loss.item<double>() / batch.data.size(0) << "\n";
             }
             batch_index++;
+            epochLoss += loss.item<double>();
         }
+        cout << "Epoch: " << epoch << ", Loss: " << epochLoss << endl;  
 
         model->eval();
         torch::NoGradGuard no_grad;

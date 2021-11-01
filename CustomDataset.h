@@ -34,6 +34,5 @@ class CustomDataset : public torch::data::datasets::Dataset<CustomDataset> {
 
  private:
     torch::Tensor input_tensors_;
-    torch::Tensor output_tensors_;
     Mode mode_;
 };

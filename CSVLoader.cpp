@@ -33,31 +33,23 @@ istream& operator>>(istream& str, CSVRow& data){
 	return str;
 }
 
-pair<vector<float>, vector<float>> process_data(ifstream& file) {
+vector<float> process_data(ifstream& file) {
 	vector<vector<float>> features;
-	vector<float> label;
 
 	CSVRow  row;
-    // Read and throw away the first row.
-    file >> row;
 	while (file >> row) {
 		features.emplace_back();
-        // add "-1" to exclude the last column
-		for (size_t loop = 0;loop < row.size() -1; ++loop) {
+        // skips first column (id)
+		for (size_t loop = 1;loop < row.size(); ++loop)
 			features.back().emplace_back(row[loop]);
-		}
-		// features.back() = normalize_feature(features.back());
-		
-		// Push final column to label vector
-		label.push_back(row[row.size()-1]);
 	}
 	// Flatten features vectors to 1D
 	vector<float> inputs = features[0];
 	int64_t total = accumulate(begin(features) + 1, end(features), 0UL, [](size_t s, vector<float> const& v){return s + v.size();});
 
 	inputs.reserve(total);
-	for (size_t i = 1; i < features.size(); i++) {
+	for (size_t i = 1; i < features.size(); i++)
 		inputs.insert(inputs.end(), features[i].begin(), features[i].end());
-	}
-	return make_pair(inputs, label);
+	
+	return inputs;
 }

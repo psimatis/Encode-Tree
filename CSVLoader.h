@@ -22,4 +22,4 @@ private:
 
 istream& operator>>(istream& str, CSVRow& data);
 
-pair<vector<float>, vector<float>> process_data(ifstream& file);
+vector<float> process_data(ifstream& file);
