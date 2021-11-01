@@ -153,29 +153,29 @@ CSVLoader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor-experiment.dir/build.make CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.s
 .PHONY : CSVLoader.cpp.s
 
-CustomDataset.o: CustomDataset.cpp.o
-.PHONY : CustomDataset.o
+CustomLoaders.o: CustomLoaders.cpp.o
+.PHONY : CustomLoaders.o
 
 # target to build an object file
-CustomDataset.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor-experiment.dir/build.make CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.o
-.PHONY : CustomDataset.cpp.o
+CustomLoaders.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor-experiment.dir/build.make CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.o
+.PHONY : CustomLoaders.cpp.o
 
-CustomDataset.i: CustomDataset.cpp.i
-.PHONY : CustomDataset.i
+CustomLoaders.i: CustomLoaders.cpp.i
+.PHONY : CustomLoaders.i
 
 # target to preprocess a source file
-CustomDataset.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor-experiment.dir/build.make CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.i
-.PHONY : CustomDataset.cpp.i
+CustomLoaders.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor-experiment.dir/build.make CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.i
+.PHONY : CustomLoaders.cpp.i
 
-CustomDataset.s: CustomDataset.cpp.s
-.PHONY : CustomDataset.s
+CustomLoaders.s: CustomLoaders.cpp.s
+.PHONY : CustomLoaders.s
 
 # target to generate assembly for a file
-CustomDataset.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor-experiment.dir/build.make CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.s
-.PHONY : CustomDataset.cpp.s
+CustomLoaders.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor-experiment.dir/build.make CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.s
+.PHONY : CustomLoaders.cpp.s
 
 autoencoder.o: autoencoder.cpp.o
 .PHONY : autoencoder.o
@@ -237,9 +237,9 @@ help:
 	@echo "... CSVLoader.o"
 	@echo "... CSVLoader.i"
 	@echo "... CSVLoader.s"
-	@echo "... CustomDataset.o"
-	@echo "... CustomDataset.i"
-	@echo "... CustomDataset.s"
+	@echo "... CustomLoaders.o"
+	@echo "... CustomLoaders.i"
+	@echo "... CustomLoaders.s"
 	@echo "... autoencoder.o"
 	@echo "... autoencoder.i"
 	@echo "... autoencoder.s"

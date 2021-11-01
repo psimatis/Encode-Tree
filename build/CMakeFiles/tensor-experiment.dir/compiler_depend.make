@@ -186,8 +186,8 @@ CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.o: ../CSVLoader.cpp \
   /usr/include/c++/7.5.0/numeric \
   /usr/include/c++/7.5.0/bits/stl_numeric.h
 
-CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.o: ../CustomDataset.cpp \
-  ../CustomDataset.h \
+CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.o: ../CustomLoaders.cpp \
+  ../CustomLoaders.h \
   /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/datasets/base.h \
   /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/example.h \
   /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/types.h \
@@ -1997,7 +1997,7 @@ CMakeFiles/tensor-experiment.dir/main.cpp.o: ../main.cpp \
   /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/autograd.h \
   /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/autograd/autograd.h \
   /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/version.h \
-  ../CustomDataset.h \
+  ../CustomLoaders.h \
   ../CSVLoader.h \
   ../autoencoder.h
 
@@ -2027,6 +2027,8 @@ CMakeFiles/tensor-experiment.dir/main.cpp.o: ../main.cpp \
 /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/autograd/custom_function.h:
 
 /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/_functions.h:
+
+/home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/rnn.h:
 
 /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/fold.h:
 
@@ -2966,6 +2968,8 @@ CMakeFiles/tensor-experiment.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/7.5.0/clocale:
 
+../CustomLoaders.h:
+
 /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/options.h:
 
 /usr/include/c++/7.5.0/ios:
@@ -3024,11 +3028,13 @@ CMakeFiles/tensor-experiment.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/7.5.0/numeric:
 
-../CustomDataset.cpp:
+../CustomLoaders.cpp:
 
-/home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/rnn.h:
+/usr/include/c++/7.5.0/stdexcept:
 
-../CustomDataset.h:
+/usr/include/c++/7.5.0/bits/stl_vector.h:
+
+/usr/include/c++/7.5.0/limits:
 
 /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/expanding_array.h:
 
@@ -3155,12 +3161,6 @@ CMakeFiles/tensor-experiment.dir/main.cpp.o: ../main.cpp \
 /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/moduledict.h:
 
 /usr/include/c++/7.5.0/bits/uniform_int_dist.h:
-
-/usr/include/c++/7.5.0/stdexcept:
-
-/usr/include/c++/7.5.0/bits/stl_vector.h:
-
-/usr/include/c++/7.5.0/limits:
 
 /usr/include/x86_64-linux-gnu/c++/7.5.0/bits/atomic_word.h:
 

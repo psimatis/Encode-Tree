@@ -1,10 +1,11 @@
 #include <torch/torch.h>
 #include <iostream>
 #include <iomanip>
-#include "CustomDataset.h"
+#include "CustomLoaders.h"
 #include "autoencoder.h"
 
 using namespace std;
+using namespace torch::indexing;
 
 int main() {
     // Hyper parameters
@@ -14,7 +15,7 @@ int main() {
     const int64_t codeSize = 1;
     const int64_t inputSize = 4;
     const int64_t batchSize = 1024;
-    const size_t epochs = 3;
+    const size_t epochs = 1;
     const double learning_rate = 0.001;
 
 	// Data
@@ -22,6 +23,12 @@ int main() {
 	auto num_samples = dataset.size().value();
 	cout << "Dataset size:" << dataset.size().value() << endl;
 	auto dataloader = torch::data::make_data_loader<torch::data::samplers::RandomSampler>(move(dataset), batchSize);
+
+	//Queries
+    auto qSet = CustomQueryset("../data/4D-qI0_norm").map(torch::data::transforms::Stack<>());
+	auto numQueries = qSet.size().value();
+	cout << "Queryset size:" << qSet.size().value() << endl;
+	auto qLoader = torch::data::make_data_loader<torch::data::samplers::RandomSampler>(move(qSet), 1);
 
     // Model
     AE model(inputSize, hSize, codeSize);
@@ -41,20 +48,21 @@ int main() {
             optimizer.zero_grad();
             loss.backward();
             optimizer.step();
-  
-            // if ((batch_index + 1) % 100 == 0) { // prints every few batches
-                // cout << "Epoch [" << epoch << "/" << epochs
-                	// << "], Step [" << batch_index << "/" << num_samples / batchSize
-                	// << "], Loss: " << loss.item<double>() / batch.data.size(0) << "\n";
-            // }
-            // batch_index++;
             epochLoss += loss.item<double>();
         }
         cout << "Epoch: " << epoch << ", Loss: " << epochLoss << endl;  
-        cout << "Epoch: " << epoch << ", Loss: " << loss.item<double>() << endl;  
 
         model->eval();
         torch::NoGradGuard no_grad;
     }
-	cout << "Training finished!\n";
+
+	// Queries
+	for (auto& batch: *qLoader){
+		auto q = batch.data;
+		auto low = model->encode(batch.data);
+		auto high = model->encode(batch.target);
+		cout << low << high << endl;
+
+		break;
+	}
 }

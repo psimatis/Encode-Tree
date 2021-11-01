@@ -23,3 +23,4 @@ private:
 istream& operator>>(istream& str, CSVRow& data);
 
 vector<float> process_data(ifstream& file, int& dim);
+vector<float> process_queries(ifstream& file, int& dim);

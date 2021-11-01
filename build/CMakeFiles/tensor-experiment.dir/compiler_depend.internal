@@ -187,9 +187,9 @@ CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.o
  /usr/include/c++/7.5.0/numeric
  /usr/include/c++/7.5.0/bits/stl_numeric.h
 
-CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.o
- /home/panos/encode-tree-cpp/CustomDataset.cpp
- /home/panos/encode-tree-cpp/CustomDataset.h
+CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.o
+ /home/panos/encode-tree-cpp/CustomLoaders.cpp
+ /home/panos/encode-tree-cpp/CustomLoaders.h
  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/datasets/base.h
  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/data/example.h
  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/types.h
@@ -2001,7 +2001,7 @@ CMakeFiles/tensor-experiment.dir/main.cpp.o
  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/autograd.h
  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/autograd/autograd.h
  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/version.h
- /home/panos/encode-tree-cpp/CustomDataset.h
+ /home/panos/encode-tree-cpp/CustomLoaders.h
  /home/panos/encode-tree-cpp/CSVLoader.h
  /home/panos/encode-tree-cpp/autoencoder.h
 

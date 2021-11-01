@@ -97,19 +97,19 @@ CMakeFiles/tensor-experiment.dir/autoencoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor-experiment.dir/autoencoder.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panos/encode-tree-cpp/autoencoder.cpp -o CMakeFiles/tensor-experiment.dir/autoencoder.cpp.s
 
-CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.o: CMakeFiles/tensor-experiment.dir/flags.make
-CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.o: ../CustomDataset.cpp
-CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.o: CMakeFiles/tensor-experiment.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panos/encode-tree-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.o -MF CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.o.d -o CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.o -c /home/panos/encode-tree-cpp/CustomDataset.cpp
+CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.o: CMakeFiles/tensor-experiment.dir/flags.make
+CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.o: ../CustomLoaders.cpp
+CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.o: CMakeFiles/tensor-experiment.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panos/encode-tree-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.o -MF CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.o.d -o CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.o -c /home/panos/encode-tree-cpp/CustomLoaders.cpp
 
-CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panos/encode-tree-cpp/CustomDataset.cpp > CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.i
+CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panos/encode-tree-cpp/CustomLoaders.cpp > CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.i
 
-CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panos/encode-tree-cpp/CustomDataset.cpp -o CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.s
+CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panos/encode-tree-cpp/CustomLoaders.cpp -o CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.s
 
 CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.o: CMakeFiles/tensor-experiment.dir/flags.make
 CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.o: ../CSVLoader.cpp
@@ -129,7 +129,7 @@ CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.s: cmake_force
 tensor__experiment_OBJECTS = \
 "CMakeFiles/tensor-experiment.dir/main.cpp.o" \
 "CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o" \
-"CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.o" \
+"CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.o" \
 "CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.o"
 
 # External object files for target tensor-experiment
@@ -137,7 +137,7 @@ tensor__experiment_EXTERNAL_OBJECTS =
 
 tensor-experiment: CMakeFiles/tensor-experiment.dir/main.cpp.o
 tensor-experiment: CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o
-tensor-experiment: CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.o
+tensor-experiment: CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.o
 tensor-experiment: CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.o
 tensor-experiment: CMakeFiles/tensor-experiment.dir/build.make
 tensor-experiment: /home/PROJECTS/Landmarks/libtorch/lib/libtorch.so

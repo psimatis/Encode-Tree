@@ -15,7 +15,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${TORCH_CXX_FLAGS}")
 add_executable(${EXECUTABLE_NAME} 
 				main.cpp 
 				autoencoder.cpp
-				CustomDataset.cpp
+				CustomLoaders.cpp
 				CSVLoader.cpp)
 				
 target_link_libraries(${EXECUTABLE_NAME} "${TORCH_LIBRARIES}")
