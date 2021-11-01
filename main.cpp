@@ -7,11 +7,6 @@
 using namespace std;
 
 int main() {
-    // Device
-    auto cuda_available = torch::cuda::is_available();
-    torch::Device device(cuda_available ? torch::kCUDA : torch::kCPU);
-    cout << (cuda_available ? "CUDA available. Training on GPU." : "Training on CPU.") << '\n';
-
     // Hyper parameters
     int seed = 2;
     torch::manual_seed(seed);
@@ -29,31 +24,29 @@ int main() {
 	auto dataloader = torch::data::make_data_loader<torch::data::samplers::RandomSampler>(move(dataset), batchSize);
 
     // Model
-    VAE model(inputSize, hSize, codeSize);
-    model->to(device);
+    AE model(inputSize, hSize, codeSize);
     torch::optim::Adam optimizer(model->parameters(), torch::optim::AdamOptions(learning_rate));
 
     // Train the model
     for (size_t epoch = 0; epoch != epochs; ++epoch) {
-        torch::Tensor input, output;
         double epochLoss = 0;;
         size_t batch_index = 0;
         model->train();
 
         for (auto& batch : *dataloader) {
-            input = batch.data.to(device);
-           	output = model->forward(input);
+            auto input = batch.data;
+           	auto output = model->forward(input);
 			auto loss = torch::nn::functional::mse_loss(output, input);
             optimizer.zero_grad();
             loss.backward();
             optimizer.step();
   
-            if ((batch_index + 1) % 100 == 0) {
-                cout << "Epoch [" << epoch + 1 << "/" << epochs
-                	<< "], Step [" << batch_index + 1 << "/" << num_samples / batchSize
-                	<< "], Loss: " << loss.item<double>() / batch.data.size(0) << "\n";
-            }
-            batch_index++;
+            // if ((batch_index + 1) % 100 == 0) { // prints every few batches
+                // cout << "Epoch [" << epoch << "/" << epochs
+                	// << "], Step [" << batch_index << "/" << num_samples / batchSize
+                	// << "], Loss: " << loss.item<double>() / batch.data.size(0) << "\n";
+            // }
+            // batch_index++;
             epochLoss += loss.item<double>();
         }
         cout << "Epoch: " << epoch << ", Loss: " << epochLoss << endl;  

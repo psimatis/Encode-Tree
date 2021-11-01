@@ -1,13 +1,12 @@
 #pragma once
 
 #include <torch/torch.h>
-#include <utility>
 
 using namespace std;
 
-class VAEImpl : public torch::nn::Module {
+class AEImpl : public torch::nn::Module {
  public:
-    VAEImpl(int64_t image_size, int64_t h_dim, int64_t z_dim);
+    AEImpl(int64_t image_size, int64_t h_dim, int64_t z_dim);
     torch::Tensor decode(torch::Tensor z);
     torch::Tensor forward(torch::Tensor x);
     torch::Tensor encode(torch::Tensor x);
@@ -20,4 +19,4 @@ class VAEImpl : public torch::nn::Module {
     torch::nn::Linear fc6;
 };
 
-TORCH_MODULE(VAE);
+TORCH_MODULE(AE);

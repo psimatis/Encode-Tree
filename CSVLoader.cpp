@@ -33,7 +33,7 @@ istream& operator>>(istream& str, CSVRow& data){
 	return str;
 }
 
-vector<float> process_data(ifstream& file) {
+vector<float> process_data(ifstream& file, int& dim) {
 	vector<vector<float>> features;
 
 	CSVRow  row;
@@ -50,6 +50,7 @@ vector<float> process_data(ifstream& file) {
 	inputs.reserve(total);
 	for (size_t i = 1; i < features.size(); i++)
 		inputs.insert(inputs.end(), features[i].begin(), features[i].end());
-	
+
+	dim = int(features[0].size());
 	return inputs;
 }
