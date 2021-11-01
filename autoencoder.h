@@ -17,6 +17,8 @@ class AEImpl : public torch::nn::Module {
     torch::nn::Linear fc4;
     torch::nn::Linear fc5;
     torch::nn::Linear fc6;
+    torch::nn::Linear fc7;
+    torch::nn::Linear fc8;
 };
 
 TORCH_MODULE(AE);
