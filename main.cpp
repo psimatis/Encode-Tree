@@ -2,7 +2,7 @@
 #include <iostream>
 #include <iomanip>
 #include "CustomDataset.h"
-#include "variational_autoencoder.h"
+#include "autoencoder.h"
 
 using namespace std;
 
@@ -17,12 +17,13 @@ int main() {
     const int64_t codeSize = 1;
     const int64_t inputSize = 4;
     const int64_t batchSize = 1024;
-    const size_t epochs = 3;
+    const size_t epochs = 1;
     const double learning_rate = 1e-3;
 
 	// Data
     auto dataset = CustomDataset("../data/4D-1e6_norm.csv").map(torch::data::transforms::Stack<>());
 	auto num_samples = dataset.size().value();
+	cout << "Dataset size:" << dataset.size().value() << endl;
 	auto dataloader = torch::data::make_data_loader<torch::data::samplers::RandomSampler>(move(dataset), batchSize);
 
     // Model
@@ -45,7 +46,7 @@ int main() {
 
             // Forward pass
             auto output = model->forward(inputs);
-			auto loss = torch::nn::functional::mse_loss(output.reconstruction, inputs);
+			auto loss = torch::nn::functional::mse_loss(output, inputs);
 
             // Backward pass and optimize
             optimizer.zero_grad();

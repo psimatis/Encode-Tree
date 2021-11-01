@@ -14,7 +14,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${TORCH_CXX_FLAGS}")
 
 add_executable(${EXECUTABLE_NAME} 
 				main.cpp 
-				variational_autoencoder.cpp
+				autoencoder.cpp
 				CustomDataset.cpp
 				CSVLoader.cpp)
 				

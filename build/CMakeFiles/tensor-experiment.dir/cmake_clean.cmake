@@ -3,10 +3,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.o.d"
   "CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.o"
   "CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.o.d"
+  "CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o"
+  "CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o.d"
   "CMakeFiles/tensor-experiment.dir/main.cpp.o"
   "CMakeFiles/tensor-experiment.dir/main.cpp.o.d"
-  "CMakeFiles/tensor-experiment.dir/variational_autoencoder.cpp.o"
-  "CMakeFiles/tensor-experiment.dir/variational_autoencoder.cpp.o.d"
   "tensor-experiment"
   "tensor-experiment.pdb"
 )

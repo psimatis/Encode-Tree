@@ -177,6 +177,30 @@ CustomDataset.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor-experiment.dir/build.make CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.s
 .PHONY : CustomDataset.cpp.s
 
+autoencoder.o: autoencoder.cpp.o
+.PHONY : autoencoder.o
+
+# target to build an object file
+autoencoder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor-experiment.dir/build.make CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o
+.PHONY : autoencoder.cpp.o
+
+autoencoder.i: autoencoder.cpp.i
+.PHONY : autoencoder.i
+
+# target to preprocess a source file
+autoencoder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor-experiment.dir/build.make CMakeFiles/tensor-experiment.dir/autoencoder.cpp.i
+.PHONY : autoencoder.cpp.i
+
+autoencoder.s: autoencoder.cpp.s
+.PHONY : autoencoder.s
+
+# target to generate assembly for a file
+autoencoder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor-experiment.dir/build.make CMakeFiles/tensor-experiment.dir/autoencoder.cpp.s
+.PHONY : autoencoder.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -201,30 +225,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor-experiment.dir/build.make CMakeFiles/tensor-experiment.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-variational_autoencoder.o: variational_autoencoder.cpp.o
-.PHONY : variational_autoencoder.o
-
-# target to build an object file
-variational_autoencoder.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor-experiment.dir/build.make CMakeFiles/tensor-experiment.dir/variational_autoencoder.cpp.o
-.PHONY : variational_autoencoder.cpp.o
-
-variational_autoencoder.i: variational_autoencoder.cpp.i
-.PHONY : variational_autoencoder.i
-
-# target to preprocess a source file
-variational_autoencoder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor-experiment.dir/build.make CMakeFiles/tensor-experiment.dir/variational_autoencoder.cpp.i
-.PHONY : variational_autoencoder.cpp.i
-
-variational_autoencoder.s: variational_autoencoder.cpp.s
-.PHONY : variational_autoencoder.s
-
-# target to generate assembly for a file
-variational_autoencoder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor-experiment.dir/build.make CMakeFiles/tensor-experiment.dir/variational_autoencoder.cpp.s
-.PHONY : variational_autoencoder.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -240,12 +240,12 @@ help:
 	@echo "... CustomDataset.o"
 	@echo "... CustomDataset.i"
 	@echo "... CustomDataset.s"
+	@echo "... autoencoder.o"
+	@echo "... autoencoder.i"
+	@echo "... autoencoder.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... variational_autoencoder.o"
-	@echo "... variational_autoencoder.i"
-	@echo "... variational_autoencoder.s"
 .PHONY : help
 
 

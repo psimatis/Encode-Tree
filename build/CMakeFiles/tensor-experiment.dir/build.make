@@ -83,19 +83,19 @@ CMakeFiles/tensor-experiment.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor-experiment.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panos/encode-tree-cpp/main.cpp -o CMakeFiles/tensor-experiment.dir/main.cpp.s
 
-CMakeFiles/tensor-experiment.dir/variational_autoencoder.cpp.o: CMakeFiles/tensor-experiment.dir/flags.make
-CMakeFiles/tensor-experiment.dir/variational_autoencoder.cpp.o: ../variational_autoencoder.cpp
-CMakeFiles/tensor-experiment.dir/variational_autoencoder.cpp.o: CMakeFiles/tensor-experiment.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panos/encode-tree-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tensor-experiment.dir/variational_autoencoder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tensor-experiment.dir/variational_autoencoder.cpp.o -MF CMakeFiles/tensor-experiment.dir/variational_autoencoder.cpp.o.d -o CMakeFiles/tensor-experiment.dir/variational_autoencoder.cpp.o -c /home/panos/encode-tree-cpp/variational_autoencoder.cpp
+CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o: CMakeFiles/tensor-experiment.dir/flags.make
+CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o: ../autoencoder.cpp
+CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o: CMakeFiles/tensor-experiment.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panos/encode-tree-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o -MF CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o.d -o CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o -c /home/panos/encode-tree-cpp/autoencoder.cpp
 
-CMakeFiles/tensor-experiment.dir/variational_autoencoder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor-experiment.dir/variational_autoencoder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panos/encode-tree-cpp/variational_autoencoder.cpp > CMakeFiles/tensor-experiment.dir/variational_autoencoder.cpp.i
+CMakeFiles/tensor-experiment.dir/autoencoder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor-experiment.dir/autoencoder.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panos/encode-tree-cpp/autoencoder.cpp > CMakeFiles/tensor-experiment.dir/autoencoder.cpp.i
 
-CMakeFiles/tensor-experiment.dir/variational_autoencoder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor-experiment.dir/variational_autoencoder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panos/encode-tree-cpp/variational_autoencoder.cpp -o CMakeFiles/tensor-experiment.dir/variational_autoencoder.cpp.s
+CMakeFiles/tensor-experiment.dir/autoencoder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor-experiment.dir/autoencoder.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panos/encode-tree-cpp/autoencoder.cpp -o CMakeFiles/tensor-experiment.dir/autoencoder.cpp.s
 
 CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.o: CMakeFiles/tensor-experiment.dir/flags.make
 CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.o: ../CustomDataset.cpp
@@ -128,7 +128,7 @@ CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.s: cmake_force
 # Object files for target tensor-experiment
 tensor__experiment_OBJECTS = \
 "CMakeFiles/tensor-experiment.dir/main.cpp.o" \
-"CMakeFiles/tensor-experiment.dir/variational_autoencoder.cpp.o" \
+"CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o" \
 "CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.o" \
 "CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.o"
 
@@ -136,7 +136,7 @@ tensor__experiment_OBJECTS = \
 tensor__experiment_EXTERNAL_OBJECTS =
 
 tensor-experiment: CMakeFiles/tensor-experiment.dir/main.cpp.o
-tensor-experiment: CMakeFiles/tensor-experiment.dir/variational_autoencoder.cpp.o
+tensor-experiment: CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o
 tensor-experiment: CMakeFiles/tensor-experiment.dir/CustomDataset.cpp.o
 tensor-experiment: CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.o
 tensor-experiment: CMakeFiles/tensor-experiment.dir/build.make

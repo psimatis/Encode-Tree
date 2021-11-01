@@ -1,5 +1,6 @@
-CMakeFiles/tensor-experiment.dir/main.cpp.o: \
-  /home/panos/encode-tree-cpp/main.cpp \
+CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o: \
+  /home/panos/encode-tree-cpp/autoencoder.cpp \
+  /home/panos/encode-tree-cpp/autoencoder.h \
   /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/torch.h \
   /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/all.h \
   /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/cuda.h \
@@ -641,7 +642,4 @@ CMakeFiles/tensor-experiment.dir/main.cpp.o: \
   /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/optim/sgd.h \
   /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/autograd.h \
   /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/autograd/autograd.h \
-  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/version.h \
-  /home/panos/encode-tree-cpp/CustomDataset.h \
-  /home/panos/encode-tree-cpp/CSVLoader.h \
-  /home/panos/encode-tree-cpp/autoencoder.h
+  /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/version.h
