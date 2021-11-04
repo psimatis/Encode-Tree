@@ -1,6 +1,6 @@
 CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o: \
-  /home/panos/encode-tree-cpp/autoencoder.cpp \
-  /home/panos/encode-tree-cpp/autoencoder.h \
+  /home/PROJECTS/encode-tree/encode-tree-cpp/autoencoder.cpp \
+  /home/PROJECTS/encode-tree/encode-tree-cpp/autoencoder.h \
   /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/torch.h \
   /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/all.h \
   /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/cuda.h \

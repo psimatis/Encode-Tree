@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/panos/encode-tree-cpp
+CMAKE_SOURCE_DIR = /home/PROJECTS/encode-tree/encode-tree-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/panos/encode-tree-cpp/build
+CMAKE_BINARY_DIR = /home/PROJECTS/encode-tree/encode-tree-cpp/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tensor-experiment.dir/depend.make
@@ -72,58 +72,58 @@ include CMakeFiles/tensor-experiment.dir/flags.make
 CMakeFiles/tensor-experiment.dir/main.cpp.o: CMakeFiles/tensor-experiment.dir/flags.make
 CMakeFiles/tensor-experiment.dir/main.cpp.o: ../main.cpp
 CMakeFiles/tensor-experiment.dir/main.cpp.o: CMakeFiles/tensor-experiment.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panos/encode-tree-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tensor-experiment.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tensor-experiment.dir/main.cpp.o -MF CMakeFiles/tensor-experiment.dir/main.cpp.o.d -o CMakeFiles/tensor-experiment.dir/main.cpp.o -c /home/panos/encode-tree-cpp/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tensor-experiment.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tensor-experiment.dir/main.cpp.o -MF CMakeFiles/tensor-experiment.dir/main.cpp.o.d -o CMakeFiles/tensor-experiment.dir/main.cpp.o -c /home/PROJECTS/encode-tree/encode-tree-cpp/main.cpp
 
 CMakeFiles/tensor-experiment.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor-experiment.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panos/encode-tree-cpp/main.cpp > CMakeFiles/tensor-experiment.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/PROJECTS/encode-tree/encode-tree-cpp/main.cpp > CMakeFiles/tensor-experiment.dir/main.cpp.i
 
 CMakeFiles/tensor-experiment.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor-experiment.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panos/encode-tree-cpp/main.cpp -o CMakeFiles/tensor-experiment.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/PROJECTS/encode-tree/encode-tree-cpp/main.cpp -o CMakeFiles/tensor-experiment.dir/main.cpp.s
 
 CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o: CMakeFiles/tensor-experiment.dir/flags.make
 CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o: ../autoencoder.cpp
 CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o: CMakeFiles/tensor-experiment.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panos/encode-tree-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o -MF CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o.d -o CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o -c /home/panos/encode-tree-cpp/autoencoder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o -MF CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o.d -o CMakeFiles/tensor-experiment.dir/autoencoder.cpp.o -c /home/PROJECTS/encode-tree/encode-tree-cpp/autoencoder.cpp
 
 CMakeFiles/tensor-experiment.dir/autoencoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor-experiment.dir/autoencoder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panos/encode-tree-cpp/autoencoder.cpp > CMakeFiles/tensor-experiment.dir/autoencoder.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/PROJECTS/encode-tree/encode-tree-cpp/autoencoder.cpp > CMakeFiles/tensor-experiment.dir/autoencoder.cpp.i
 
 CMakeFiles/tensor-experiment.dir/autoencoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor-experiment.dir/autoencoder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panos/encode-tree-cpp/autoencoder.cpp -o CMakeFiles/tensor-experiment.dir/autoencoder.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/PROJECTS/encode-tree/encode-tree-cpp/autoencoder.cpp -o CMakeFiles/tensor-experiment.dir/autoencoder.cpp.s
 
 CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.o: CMakeFiles/tensor-experiment.dir/flags.make
 CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.o: ../CustomLoaders.cpp
 CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.o: CMakeFiles/tensor-experiment.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panos/encode-tree-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.o -MF CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.o.d -o CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.o -c /home/panos/encode-tree-cpp/CustomLoaders.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.o -MF CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.o.d -o CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.o -c /home/PROJECTS/encode-tree/encode-tree-cpp/CustomLoaders.cpp
 
 CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panos/encode-tree-cpp/CustomLoaders.cpp > CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/PROJECTS/encode-tree/encode-tree-cpp/CustomLoaders.cpp > CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.i
 
 CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panos/encode-tree-cpp/CustomLoaders.cpp -o CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/PROJECTS/encode-tree/encode-tree-cpp/CustomLoaders.cpp -o CMakeFiles/tensor-experiment.dir/CustomLoaders.cpp.s
 
 CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.o: CMakeFiles/tensor-experiment.dir/flags.make
 CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.o: ../CSVLoader.cpp
 CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.o: CMakeFiles/tensor-experiment.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panos/encode-tree-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.o -MF CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.o.d -o CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.o -c /home/panos/encode-tree-cpp/CSVLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.o -MF CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.o.d -o CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.o -c /home/PROJECTS/encode-tree/encode-tree-cpp/CSVLoader.cpp
 
 CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panos/encode-tree-cpp/CSVLoader.cpp > CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/PROJECTS/encode-tree/encode-tree-cpp/CSVLoader.cpp > CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.i
 
 CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panos/encode-tree-cpp/CSVLoader.cpp -o CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/PROJECTS/encode-tree/encode-tree-cpp/CSVLoader.cpp -o CMakeFiles/tensor-experiment.dir/CSVLoader.cpp.s
 
 # Object files for target tensor-experiment
 tensor__experiment_OBJECTS = \
@@ -144,7 +144,7 @@ tensor-experiment: /home/PROJECTS/Landmarks/libtorch/lib/libtorch.so
 tensor-experiment: /home/PROJECTS/Landmarks/libtorch/lib/libc10.so
 tensor-experiment: /home/PROJECTS/Landmarks/libtorch/lib/libc10.so
 tensor-experiment: CMakeFiles/tensor-experiment.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/panos/encode-tree-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable tensor-experiment"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable tensor-experiment"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tensor-experiment.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -156,6 +156,6 @@ CMakeFiles/tensor-experiment.dir/clean:
 .PHONY : CMakeFiles/tensor-experiment.dir/clean
 
 CMakeFiles/tensor-experiment.dir/depend:
-	cd /home/panos/encode-tree-cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/panos/encode-tree-cpp /home/panos/encode-tree-cpp /home/panos/encode-tree-cpp/build /home/panos/encode-tree-cpp/build /home/panos/encode-tree-cpp/build/CMakeFiles/tensor-experiment.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/PROJECTS/encode-tree/encode-tree-cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/PROJECTS/encode-tree/encode-tree-cpp /home/PROJECTS/encode-tree/encode-tree-cpp /home/PROJECTS/encode-tree/encode-tree-cpp/build /home/PROJECTS/encode-tree/encode-tree-cpp/build /home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/tensor-experiment.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tensor-experiment.dir/depend
 

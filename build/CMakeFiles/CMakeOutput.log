@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is Clang, found in "/home/panos/libtorchExample/build/CMakeFiles/3.21.1/CompilerIdC/a.out"
+The C compiler identification is Clang, found in "/home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/3.21.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,15 +23,15 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is Clang, found in "/home/panos/libtorchExample/build/CMakeFiles/3.21.1/CompilerIdCXX/a.out"
+The CXX compiler identification is Clang, found in "/home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/3.21.1/CompilerIdCXX/a.out"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/panos/libtorchExample/build/CMakeFiles/CMakeTmp
+Change Dir: /home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_fc3f9/fast && /usr/bin/make  -f CMakeFiles/cmTC_fc3f9.dir/build.make CMakeFiles/cmTC_fc3f9.dir/build
-make[1]: Entering directory '/home/panos/libtorchExample/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fc3f9.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -v -MD -MT CMakeFiles/cmTC_fc3f9.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_fc3f9.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_fc3f9.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_285d0/fast && /usr/bin/make  -f CMakeFiles/cmTC_285d0.dir/build.make CMakeFiles/cmTC_285d0.dir/build
+make[1]: Entering directory '/home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_285d0.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -MD -MT CMakeFiles/cmTC_285d0.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_285d0.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_285d0.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c
 clang version 10.0.0-4ubuntu1~18.04.2 
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -47,9 +47,9 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
 Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
-Found CUDA installation: /usr/local/cuda, version 7.0
+Found CUDA installation: /usr/local/cuda-11.1, version 7.0
  (in-process)
- "/usr/lib/llvm-10/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mframe-pointer=all -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-10/lib/clang/10.0.0 -dependency-file CMakeFiles/cmTC_fc3f9.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_fc3f9.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/panos/libtorchExample/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fdiagnostics-show-option -faddrsig -o CMakeFiles/cmTC_fc3f9.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c
+ "/usr/lib/llvm-10/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mframe-pointer=all -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-10/lib/clang/10.0.0 -dependency-file CMakeFiles/cmTC_285d0.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_285d0.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fdiagnostics-show-option -faddrsig -o CMakeFiles/cmTC_285d0.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c
 clang -cc1 version 10.0.0 based upon LLVM 10.0.0 default target x86_64-pc-linux-gnu
 ignoring nonexistent directory "/include"
 #include "..." search starts here:
@@ -59,9 +59,9 @@ ignoring nonexistent directory "/include"
  /usr/include/x86_64-linux-gnu
  /usr/include
 End of search list.
-Linking C executable cmTC_fc3f9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc3f9.dir/link.txt --verbose=1
-/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_fc3f9.dir/CMakeCCompilerABI.c.o -o cmTC_fc3f9 
+Linking C executable cmTC_285d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_285d0.dir/link.txt --verbose=1
+/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_285d0.dir/CMakeCCompilerABI.c.o -o cmTC_285d0 
 clang version 10.0.0-4ubuntu1~18.04.2 
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -77,9 +77,9 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
 Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
-Found CUDA installation: /usr/local/cuda, version 7.0
- "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_fc3f9 /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_fc3f9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/panos/libtorchExample/build/CMakeFiles/CMakeTmp'
+Found CUDA installation: /usr/local/cuda-11.1, version 7.0
+ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_285d0 /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_285d0.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
 
 
 
@@ -100,12 +100,12 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/panos/libtorchExample/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_fc3f9/fast && /usr/bin/make  -f CMakeFiles/cmTC_fc3f9.dir/build.make CMakeFiles/cmTC_fc3f9.dir/build]
-  ignore line: [make[1]: Entering directory '/home/panos/libtorchExample/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_fc3f9.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -v -MD -MT CMakeFiles/cmTC_fc3f9.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_fc3f9.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_fc3f9.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_285d0/fast && /usr/bin/make  -f CMakeFiles/cmTC_285d0.dir/build.make CMakeFiles/cmTC_285d0.dir/build]
+  ignore line: [make[1]: Entering directory '/home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_285d0.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -MD -MT CMakeFiles/cmTC_285d0.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_285d0.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_285d0.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
   ignore line: [clang version 10.0.0-4ubuntu1~18.04.2 ]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -123,9 +123,9 @@ Parsed C implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  ignore line: [Found CUDA installation: /usr/local/cuda  version 7.0]
+  ignore line: [Found CUDA installation: /usr/local/cuda-11.1  version 7.0]
   ignore line: [ (in-process)]
-  ignore line: [ "/usr/lib/llvm-10/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mframe-pointer=all -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-10/lib/clang/10.0.0 -dependency-file CMakeFiles/cmTC_fc3f9.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_fc3f9.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/panos/libtorchExample/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fdiagnostics-show-option -faddrsig -o CMakeFiles/cmTC_fc3f9.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
+  ignore line: [ "/usr/lib/llvm-10/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mframe-pointer=all -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-10/lib/clang/10.0.0 -dependency-file CMakeFiles/cmTC_285d0.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_285d0.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fdiagnostics-show-option -faddrsig -o CMakeFiles/cmTC_285d0.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
   ignore line: [clang -cc1 version 10.0.0 based upon LLVM 10.0.0 default target x86_64-pc-linux-gnu]
   ignore line: [ignoring nonexistent directory "/include"]
   ignore line: [#include "..." search starts here:]
@@ -135,9 +135,9 @@ Parsed C implicit link information from above output:
   ignore line: [ /usr/include/x86_64-linux-gnu]
   ignore line: [ /usr/include]
   ignore line: [End of search list.]
-  ignore line: [Linking C executable cmTC_fc3f9]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc3f9.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_fc3f9.dir/CMakeCCompilerABI.c.o -o cmTC_fc3f9 ]
+  ignore line: [Linking C executable cmTC_285d0]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_285d0.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_285d0.dir/CMakeCCompilerABI.c.o -o cmTC_285d0 ]
   ignore line: [clang version 10.0.0-4ubuntu1~18.04.2 ]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -155,8 +155,8 @@ Parsed C implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  ignore line: [Found CUDA installation: /usr/local/cuda  version 7.0]
-  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_fc3f9 /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_fc3f9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [Found CUDA installation: /usr/local/cuda-11.1  version 7.0]
+  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_285d0 /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_285d0.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-zrelro] ==> ignore
@@ -169,7 +169,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_fc3f9] ==> ignore
+    arg [cmTC_285d0] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o]
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o]
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o]
@@ -182,7 +182,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/llvm-10/bin/../lib] ==> dir [/usr/lib/llvm-10/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_fc3f9.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_285d0.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -215,12 +215,12 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/panos/libtorchExample/build/CMakeFiles/CMakeTmp
+Change Dir: /home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_dc934/fast && /usr/bin/make  -f CMakeFiles/cmTC_dc934.dir/build.make CMakeFiles/cmTC_dc934.dir/build
-make[1]: Entering directory '/home/panos/libtorchExample/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_dc934.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++   -v -MD -MT CMakeFiles/cmTC_dc934.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_dc934.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_dc934.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_95ea1/fast && /usr/bin/make  -f CMakeFiles/cmTC_95ea1.dir/build.make CMakeFiles/cmTC_95ea1.dir/build
+make[1]: Entering directory '/home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_95ea1.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -MD -MT CMakeFiles/cmTC_95ea1.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_95ea1.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_95ea1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
 clang version 10.0.0-4ubuntu1~18.04.2 
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -236,9 +236,9 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
 Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
-Found CUDA installation: /usr/local/cuda, version 7.0
+Found CUDA installation: /usr/local/cuda-11.1, version 7.0
  (in-process)
- "/usr/lib/llvm-10/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mframe-pointer=all -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-10/lib/clang/10.0.0 -dependency-file CMakeFiles/cmTC_dc934.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_dc934.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/panos/libtorchExample/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -faddrsig -o CMakeFiles/cmTC_dc934.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
+ "/usr/lib/llvm-10/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mframe-pointer=all -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-10/lib/clang/10.0.0 -dependency-file CMakeFiles/cmTC_95ea1.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_95ea1.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -faddrsig -o CMakeFiles/cmTC_95ea1.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
 clang -cc1 version 10.0.0 based upon LLVM 10.0.0 default target x86_64-pc-linux-gnu
 ignoring nonexistent directory "/include"
 ignoring duplicate directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"
@@ -252,9 +252,9 @@ ignoring duplicate directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.
  /usr/include/x86_64-linux-gnu
  /usr/include
 End of search list.
-Linking CXX executable cmTC_dc934
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc934.dir/link.txt --verbose=1
-/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_dc934.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_dc934 
+Linking CXX executable cmTC_95ea1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95ea1.dir/link.txt --verbose=1
+/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_95ea1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_95ea1 
 clang version 10.0.0-4ubuntu1~18.04.2 
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -270,9 +270,9 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
 Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
-Found CUDA installation: /usr/local/cuda, version 7.0
- "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_dc934 /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_dc934.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/panos/libtorchExample/build/CMakeFiles/CMakeTmp'
+Found CUDA installation: /usr/local/cuda-11.1, version 7.0
+ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_95ea1 /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_95ea1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
 
 
 
@@ -299,12 +299,12 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/panos/libtorchExample/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_dc934/fast && /usr/bin/make  -f CMakeFiles/cmTC_dc934.dir/build.make CMakeFiles/cmTC_dc934.dir/build]
-  ignore line: [make[1]: Entering directory '/home/panos/libtorchExample/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_dc934.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++   -v -MD -MT CMakeFiles/cmTC_dc934.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_dc934.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_dc934.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_95ea1/fast && /usr/bin/make  -f CMakeFiles/cmTC_95ea1.dir/build.make CMakeFiles/cmTC_95ea1.dir/build]
+  ignore line: [make[1]: Entering directory '/home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_95ea1.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -MD -MT CMakeFiles/cmTC_95ea1.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_95ea1.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_95ea1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [clang version 10.0.0-4ubuntu1~18.04.2 ]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -322,9 +322,9 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  ignore line: [Found CUDA installation: /usr/local/cuda  version 7.0]
+  ignore line: [Found CUDA installation: /usr/local/cuda-11.1  version 7.0]
   ignore line: [ (in-process)]
-  ignore line: [ "/usr/lib/llvm-10/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mframe-pointer=all -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-10/lib/clang/10.0.0 -dependency-file CMakeFiles/cmTC_dc934.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_dc934.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/panos/libtorchExample/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -faddrsig -o CMakeFiles/cmTC_dc934.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [ "/usr/lib/llvm-10/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mframe-pointer=all -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-10/lib/clang/10.0.0 -dependency-file CMakeFiles/cmTC_95ea1.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_95ea1.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -faddrsig -o CMakeFiles/cmTC_95ea1.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [clang -cc1 version 10.0.0 based upon LLVM 10.0.0 default target x86_64-pc-linux-gnu]
   ignore line: [ignoring nonexistent directory "/include"]
   ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"]
@@ -338,9 +338,9 @@ Parsed CXX implicit link information from above output:
   ignore line: [ /usr/include/x86_64-linux-gnu]
   ignore line: [ /usr/include]
   ignore line: [End of search list.]
-  ignore line: [Linking CXX executable cmTC_dc934]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc934.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_dc934.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_dc934 ]
+  ignore line: [Linking CXX executable cmTC_95ea1]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95ea1.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_95ea1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_95ea1 ]
   ignore line: [clang version 10.0.0-4ubuntu1~18.04.2 ]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -358,8 +358,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  ignore line: [Found CUDA installation: /usr/local/cuda  version 7.0]
-  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_dc934 /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_dc934.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [Found CUDA installation: /usr/local/cuda-11.1  version 7.0]
+  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_95ea1 /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_95ea1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-zrelro] ==> ignore
@@ -372,7 +372,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_dc934] ==> ignore
+    arg [cmTC_95ea1] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o]
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o]
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o]
@@ -385,7 +385,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/llvm-10/bin/../lib] ==> dir [/usr/lib/llvm-10/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_dc934.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_95ea1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -416,920 +416,30 @@ Parsed CXX implicit link information from above output:
 
 
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/panos/libtorchExample/build/CMakeFiles/CMakeTmp
+Change Dir: /home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_f1932/fast && /usr/bin/make  -f CMakeFiles/cmTC_f1932.dir/build.make CMakeFiles/cmTC_f1932.dir/build
-make[1]: Entering directory '/home/panos/libtorchExample/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f1932.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -MD -MT CMakeFiles/cmTC_f1932.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_f1932.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_f1932.dir/CheckIncludeFile.c.o -c /home/panos/libtorchExample/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_f1932
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1932.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_f1932.dir/CheckIncludeFile.c.o -o cmTC_f1932 
-make[1]: Leaving directory '/home/panos/libtorchExample/build/CMakeFiles/CMakeTmp'
-
-
-
-Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/panos/libtorchExample/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_eef8e/fast && /usr/bin/make  -f CMakeFiles/cmTC_eef8e.dir/build.make CMakeFiles/cmTC_eef8e.dir/build
-make[1]: Entering directory '/home/panos/libtorchExample/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_eef8e.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -MD -MT CMakeFiles/cmTC_eef8e.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_eef8e.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_eef8e.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.21/Modules/CheckFunctionExists.c
-Linking C executable cmTC_eef8e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eef8e.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_eef8e.dir/CheckFunctionExists.c.o -o cmTC_eef8e  -lpthread 
-make[1]: Leaving directory '/home/panos/libtorchExample/build/CMakeFiles/CMakeTmp'
-
-
-
-The system is: Linux - 4.15.0-142-generic - x86_64
-Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /usr/bin/cc 
-Build flags: 
-Id flags:  
-
-The output was:
-0
-
-
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
-
-The C compiler identification is Clang, found in "/home/panos/encode-tree-cpp/build/CMakeFiles/3.21.1/CompilerIdC/a.out"
-
-Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /usr/bin/c++ 
-Build flags: 
-Id flags:  
-
-The output was:
-0
-
-
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
-
-The CXX compiler identification is Clang, found in "/home/panos/encode-tree-cpp/build/CMakeFiles/3.21.1/CompilerIdCXX/a.out"
-
-Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_aeb0b/fast && /usr/bin/make  -f CMakeFiles/cmTC_aeb0b.dir/build.make CMakeFiles/cmTC_aeb0b.dir/build
-make[1]: Entering directory '/home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_aeb0b.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -v -MD -MT CMakeFiles/cmTC_aeb0b.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_aeb0b.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_aeb0b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c
-clang version 10.0.0-4ubuntu1~18.04.2 
-Target: x86_64-pc-linux-gnu
-Thread model: posix
-InstalledDir: /usr/bin
-Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/8
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8
-Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
-Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
-Candidate multilib: .;@m64
-Selected multilib: .;@m64
-Found CUDA installation: /usr/local/cuda, version 7.0
- (in-process)
- "/usr/lib/llvm-10/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mframe-pointer=all -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-10/lib/clang/10.0.0 -dependency-file CMakeFiles/cmTC_aeb0b.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_aeb0b.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fdiagnostics-show-option -faddrsig -o CMakeFiles/cmTC_aeb0b.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c
-clang -cc1 version 10.0.0 based upon LLVM 10.0.0 default target x86_64-pc-linux-gnu
-ignoring nonexistent directory "/include"
-#include "..." search starts here:
-#include <...> search starts here:
- /usr/local/include
- /usr/lib/llvm-10/lib/clang/10.0.0/include
- /usr/include/x86_64-linux-gnu
- /usr/include
-End of search list.
-Linking C executable cmTC_aeb0b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aeb0b.dir/link.txt --verbose=1
-/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_aeb0b.dir/CMakeCCompilerABI.c.o -o cmTC_aeb0b 
-clang version 10.0.0-4ubuntu1~18.04.2 
-Target: x86_64-pc-linux-gnu
-Thread model: posix
-InstalledDir: /usr/bin
-Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/8
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8
-Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
-Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
-Candidate multilib: .;@m64
-Selected multilib: .;@m64
-Found CUDA installation: /usr/local/cuda, version 7.0
- "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_aeb0b /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_aeb0b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
-
-
-
-Parsed C implicit include dir info from above output: rv=done
-  found start of include info
-  found start of implicit include info
-    add: [/usr/local/include]
-    add: [/usr/lib/llvm-10/lib/clang/10.0.0/include]
-    add: [/usr/include/x86_64-linux-gnu]
-    add: [/usr/include]
-  end of search list found
-  collapse include dir [/usr/local/include] ==> [/usr/local/include]
-  collapse include dir [/usr/lib/llvm-10/lib/clang/10.0.0/include] ==> [/usr/lib/llvm-10/lib/clang/10.0.0/include]
-  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
-  collapse include dir [/usr/include] ==> [/usr/include]
-  implicit include dirs: [/usr/local/include;/usr/lib/llvm-10/lib/clang/10.0.0/include;/usr/include/x86_64-linux-gnu;/usr/include]
-
-
-Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp]
-  ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_aeb0b/fast && /usr/bin/make  -f CMakeFiles/cmTC_aeb0b.dir/build.make CMakeFiles/cmTC_aeb0b.dir/build]
-  ignore line: [make[1]: Entering directory '/home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_aeb0b.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -v -MD -MT CMakeFiles/cmTC_aeb0b.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_aeb0b.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_aeb0b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
-  ignore line: [clang version 10.0.0-4ubuntu1~18.04.2 ]
-  ignore line: [Target: x86_64-pc-linux-gnu]
-  ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /usr/bin]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/8]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8]
-  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
-  ignore line: [Candidate multilib: .]
-  ignore line: [@m64]
-  ignore line: [Selected multilib: .]
-  ignore line: [@m64]
-  ignore line: [Found CUDA installation: /usr/local/cuda  version 7.0]
-  ignore line: [ (in-process)]
-  ignore line: [ "/usr/lib/llvm-10/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mframe-pointer=all -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-10/lib/clang/10.0.0 -dependency-file CMakeFiles/cmTC_aeb0b.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_aeb0b.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fdiagnostics-show-option -faddrsig -o CMakeFiles/cmTC_aeb0b.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
-  ignore line: [clang -cc1 version 10.0.0 based upon LLVM 10.0.0 default target x86_64-pc-linux-gnu]
-  ignore line: [ignoring nonexistent directory "/include"]
-  ignore line: [#include "..." search starts here:]
-  ignore line: [#include <...> search starts here:]
-  ignore line: [ /usr/local/include]
-  ignore line: [ /usr/lib/llvm-10/lib/clang/10.0.0/include]
-  ignore line: [ /usr/include/x86_64-linux-gnu]
-  ignore line: [ /usr/include]
-  ignore line: [End of search list.]
-  ignore line: [Linking C executable cmTC_aeb0b]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aeb0b.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_aeb0b.dir/CMakeCCompilerABI.c.o -o cmTC_aeb0b ]
-  ignore line: [clang version 10.0.0-4ubuntu1~18.04.2 ]
-  ignore line: [Target: x86_64-pc-linux-gnu]
-  ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /usr/bin]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/8]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8]
-  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
-  ignore line: [Candidate multilib: .]
-  ignore line: [@m64]
-  ignore line: [Selected multilib: .]
-  ignore line: [@m64]
-  ignore line: [Found CUDA installation: /usr/local/cuda  version 7.0]
-  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_aeb0b /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_aeb0b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o]
-    arg [/usr/bin/ld] ==> ignore
-    arg [-export-dynamic] ==> ignore
-    arg [-zrelro] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
-    arg [--build-id] ==> ignore
-    arg [--eh-frame-hdr] ==> ignore
-    arg [-m] ==> ignore
-    arg [elf_x86_64] ==> ignore
-    arg [-export-dynamic] ==> ignore
-    arg [-dynamic-linker] ==> ignore
-    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-    arg [-o] ==> ignore
-    arg [cmTC_aeb0b] ==> ignore
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o]
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o]
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o]
-    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
-    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu]
-    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
-    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
-    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
-    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../..] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../..]
-    arg [-L/usr/lib/llvm-10/bin/../lib] ==> dir [/usr/lib/llvm-10/bin/../lib]
-    arg [-L/lib] ==> dir [/lib]
-    arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_aeb0b.dir/CMakeCCompilerABI.c.o] ==> ignore
-    arg [-lgcc] ==> lib [gcc]
-    arg [--as-needed] ==> ignore
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [--no-as-needed] ==> ignore
-    arg [-lc] ==> lib [c]
-    arg [-lgcc] ==> lib [gcc]
-    arg [--as-needed] ==> ignore
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [--no-as-needed] ==> ignore
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o]
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o]
-  collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o] ==> [/usr/lib/x86_64-linux-gnu/crt1.o]
-  collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
-  collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o] ==> [/usr/lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o]
-  collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o] ==> [/usr/lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o]
-  collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
-  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0] ==> [/usr/lib/gcc/x86_64-linux-gnu/7.5.0]
-  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
-  collapse library dir [/lib/../lib64] ==> [/lib64]
-  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../..] ==> [/usr/lib]
-  collapse library dir [/usr/lib/llvm-10/bin/../lib] ==> [/usr/lib/llvm-10/lib]
-  collapse library dir [/lib] ==> [/lib]
-  collapse library dir [/usr/lib] ==> [/usr/lib]
-  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
-  implicit objs: [/usr/lib/x86_64-linux-gnu/crt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o;/usr/lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o;/usr/lib/x86_64-linux-gnu/crtn.o]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7.5.0;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/usr/lib/llvm-10/lib;/lib]
-  implicit fwks: []
-
-
-Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_0e7b6/fast && /usr/bin/make  -f CMakeFiles/cmTC_0e7b6.dir/build.make CMakeFiles/cmTC_0e7b6.dir/build
-make[1]: Entering directory '/home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0e7b6.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++   -v -MD -MT CMakeFiles/cmTC_0e7b6.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_0e7b6.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_0e7b6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
-clang version 10.0.0-4ubuntu1~18.04.2 
-Target: x86_64-pc-linux-gnu
-Thread model: posix
-InstalledDir: /usr/bin
-Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/8
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8
-Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
-Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
-Candidate multilib: .;@m64
-Selected multilib: .;@m64
-Found CUDA installation: /usr/local/cuda, version 7.0
- (in-process)
- "/usr/lib/llvm-10/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mframe-pointer=all -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-10/lib/clang/10.0.0 -dependency-file CMakeFiles/cmTC_0e7b6.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_0e7b6.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -faddrsig -o CMakeFiles/cmTC_0e7b6.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
-clang -cc1 version 10.0.0 based upon LLVM 10.0.0 default target x86_64-pc-linux-gnu
-ignoring nonexistent directory "/include"
-ignoring duplicate directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"
-#include "..." search starts here:
-#include <...> search starts here:
- /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0
- /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0
- /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward
- /usr/local/include
- /usr/lib/llvm-10/lib/clang/10.0.0/include
- /usr/include/x86_64-linux-gnu
- /usr/include
-End of search list.
-Linking CXX executable cmTC_0e7b6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e7b6.dir/link.txt --verbose=1
-/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_0e7b6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0e7b6 
-clang version 10.0.0-4ubuntu1~18.04.2 
-Target: x86_64-pc-linux-gnu
-Thread model: posix
-InstalledDir: /usr/bin
-Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/8
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8
-Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
-Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
-Candidate multilib: .;@m64
-Selected multilib: .;@m64
-Found CUDA installation: /usr/local/cuda, version 7.0
- "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0e7b6 /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_0e7b6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
-
-
-
-Parsed CXX implicit include dir info from above output: rv=done
-  found start of include info
-  found start of implicit include info
-    add: [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0]
-    add: [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0]
-    add: [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward]
-    add: [/usr/local/include]
-    add: [/usr/lib/llvm-10/lib/clang/10.0.0/include]
-    add: [/usr/include/x86_64-linux-gnu]
-    add: [/usr/include]
-  end of search list found
-  collapse include dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0] ==> [/usr/include/c++/7.5.0]
-  collapse include dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0] ==> [/usr/include/x86_64-linux-gnu/c++/7.5.0]
-  collapse include dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward] ==> [/usr/include/c++/7.5.0/backward]
-  collapse include dir [/usr/local/include] ==> [/usr/local/include]
-  collapse include dir [/usr/lib/llvm-10/lib/clang/10.0.0/include] ==> [/usr/lib/llvm-10/lib/clang/10.0.0/include]
-  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
-  collapse include dir [/usr/include] ==> [/usr/include]
-  implicit include dirs: [/usr/include/c++/7.5.0;/usr/include/x86_64-linux-gnu/c++/7.5.0;/usr/include/c++/7.5.0/backward;/usr/local/include;/usr/lib/llvm-10/lib/clang/10.0.0/include;/usr/include/x86_64-linux-gnu;/usr/include]
-
-
-Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp]
-  ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_0e7b6/fast && /usr/bin/make  -f CMakeFiles/cmTC_0e7b6.dir/build.make CMakeFiles/cmTC_0e7b6.dir/build]
-  ignore line: [make[1]: Entering directory '/home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_0e7b6.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++   -v -MD -MT CMakeFiles/cmTC_0e7b6.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_0e7b6.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_0e7b6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [clang version 10.0.0-4ubuntu1~18.04.2 ]
-  ignore line: [Target: x86_64-pc-linux-gnu]
-  ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /usr/bin]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/8]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8]
-  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
-  ignore line: [Candidate multilib: .]
-  ignore line: [@m64]
-  ignore line: [Selected multilib: .]
-  ignore line: [@m64]
-  ignore line: [Found CUDA installation: /usr/local/cuda  version 7.0]
-  ignore line: [ (in-process)]
-  ignore line: [ "/usr/lib/llvm-10/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mframe-pointer=all -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-10/lib/clang/10.0.0 -dependency-file CMakeFiles/cmTC_0e7b6.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_0e7b6.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -faddrsig -o CMakeFiles/cmTC_0e7b6.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [clang -cc1 version 10.0.0 based upon LLVM 10.0.0 default target x86_64-pc-linux-gnu]
-  ignore line: [ignoring nonexistent directory "/include"]
-  ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"]
-  ignore line: [#include "..." search starts here:]
-  ignore line: [#include <...> search starts here:]
-  ignore line: [ /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0]
-  ignore line: [ /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0]
-  ignore line: [ /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward]
-  ignore line: [ /usr/local/include]
-  ignore line: [ /usr/lib/llvm-10/lib/clang/10.0.0/include]
-  ignore line: [ /usr/include/x86_64-linux-gnu]
-  ignore line: [ /usr/include]
-  ignore line: [End of search list.]
-  ignore line: [Linking CXX executable cmTC_0e7b6]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e7b6.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_0e7b6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0e7b6 ]
-  ignore line: [clang version 10.0.0-4ubuntu1~18.04.2 ]
-  ignore line: [Target: x86_64-pc-linux-gnu]
-  ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /usr/bin]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/8]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8]
-  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
-  ignore line: [Candidate multilib: .]
-  ignore line: [@m64]
-  ignore line: [Selected multilib: .]
-  ignore line: [@m64]
-  ignore line: [Found CUDA installation: /usr/local/cuda  version 7.0]
-  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0e7b6 /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_0e7b6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o]
-    arg [/usr/bin/ld] ==> ignore
-    arg [-export-dynamic] ==> ignore
-    arg [-zrelro] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
-    arg [--build-id] ==> ignore
-    arg [--eh-frame-hdr] ==> ignore
-    arg [-m] ==> ignore
-    arg [elf_x86_64] ==> ignore
-    arg [-export-dynamic] ==> ignore
-    arg [-dynamic-linker] ==> ignore
-    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-    arg [-o] ==> ignore
-    arg [cmTC_0e7b6] ==> ignore
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o]
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o]
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o]
-    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
-    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu]
-    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
-    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
-    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
-    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../..] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../..]
-    arg [-L/usr/lib/llvm-10/bin/../lib] ==> dir [/usr/lib/llvm-10/bin/../lib]
-    arg [-L/lib] ==> dir [/lib]
-    arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_0e7b6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-    arg [-lstdc++] ==> lib [stdc++]
-    arg [-lm] ==> lib [m]
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [-lgcc] ==> lib [gcc]
-    arg [-lc] ==> lib [c]
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [-lgcc] ==> lib [gcc]
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o]
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o]
-  collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o] ==> [/usr/lib/x86_64-linux-gnu/crt1.o]
-  collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
-  collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o] ==> [/usr/lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o]
-  collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o] ==> [/usr/lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o]
-  collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
-  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0] ==> [/usr/lib/gcc/x86_64-linux-gnu/7.5.0]
-  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
-  collapse library dir [/lib/../lib64] ==> [/lib64]
-  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../..] ==> [/usr/lib]
-  collapse library dir [/usr/lib/llvm-10/bin/../lib] ==> [/usr/lib/llvm-10/lib]
-  collapse library dir [/lib] ==> [/lib]
-  collapse library dir [/usr/lib] ==> [/usr/lib]
-  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
-  implicit objs: [/usr/lib/x86_64-linux-gnu/crt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o;/usr/lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o;/usr/lib/x86_64-linux-gnu/crtn.o]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7.5.0;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/usr/lib/llvm-10/lib;/lib]
-  implicit fwks: []
-
-
-Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_f4d9f/fast && /usr/bin/make  -f CMakeFiles/cmTC_f4d9f.dir/build.make CMakeFiles/cmTC_f4d9f.dir/build
-make[1]: Entering directory '/home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f4d9f.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -MD -MT CMakeFiles/cmTC_f4d9f.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_f4d9f.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_f4d9f.dir/CheckIncludeFile.c.o -c /home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_f4d9f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4d9f.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_f4d9f.dir/CheckIncludeFile.c.o -o cmTC_f4d9f 
-make[1]: Leaving directory '/home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_63c26/fast && /usr/bin/make  -f CMakeFiles/cmTC_63c26.dir/build.make CMakeFiles/cmTC_63c26.dir/build
+make[1]: Entering directory '/home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_63c26.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -MD -MT CMakeFiles/cmTC_63c26.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_63c26.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_63c26.dir/CheckIncludeFile.c.o -c /home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_63c26
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63c26.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_63c26.dir/CheckIncludeFile.c.o -o cmTC_63c26 
+make[1]: Leaving directory '/home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp
+Change Dir: /home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_d6ed5/fast && /usr/bin/make  -f CMakeFiles/cmTC_d6ed5.dir/build.make CMakeFiles/cmTC_d6ed5.dir/build
-make[1]: Entering directory '/home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d6ed5.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -MD -MT CMakeFiles/cmTC_d6ed5.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_d6ed5.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_d6ed5.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.21/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d6ed5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6ed5.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_d6ed5.dir/CheckFunctionExists.c.o -o cmTC_d6ed5  -lpthread 
-make[1]: Leaving directory '/home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
-
-
-
-The system is: Linux - 4.15.0-142-generic - x86_64
-Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /usr/bin/cc 
-Build flags: 
-Id flags:  
-
-The output was:
-0
-
-
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
-
-The C compiler identification is Clang, found in "/home/panos/encode-tree-cpp/build/CMakeFiles/3.21.1/CompilerIdC/a.out"
-
-Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /usr/bin/c++ 
-Build flags: 
-Id flags:  
-
-The output was:
-0
-
-
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
-
-The CXX compiler identification is Clang, found in "/home/panos/encode-tree-cpp/build/CMakeFiles/3.21.1/CompilerIdCXX/a.out"
-
-Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_a5a2f/fast && /usr/bin/make  -f CMakeFiles/cmTC_a5a2f.dir/build.make CMakeFiles/cmTC_a5a2f.dir/build
-make[1]: Entering directory '/home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a5a2f.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -v -MD -MT CMakeFiles/cmTC_a5a2f.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a5a2f.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a5a2f.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c
-clang version 10.0.0-4ubuntu1~18.04.2 
-Target: x86_64-pc-linux-gnu
-Thread model: posix
-InstalledDir: /usr/bin
-Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/8
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8
-Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
-Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
-Candidate multilib: .;@m64
-Selected multilib: .;@m64
-Found CUDA installation: /usr/local/cuda, version 7.0
- (in-process)
- "/usr/lib/llvm-10/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mframe-pointer=all -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-10/lib/clang/10.0.0 -dependency-file CMakeFiles/cmTC_a5a2f.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_a5a2f.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fdiagnostics-show-option -faddrsig -o CMakeFiles/cmTC_a5a2f.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c
-clang -cc1 version 10.0.0 based upon LLVM 10.0.0 default target x86_64-pc-linux-gnu
-ignoring nonexistent directory "/include"
-#include "..." search starts here:
-#include <...> search starts here:
- /usr/local/include
- /usr/lib/llvm-10/lib/clang/10.0.0/include
- /usr/include/x86_64-linux-gnu
- /usr/include
-End of search list.
-Linking C executable cmTC_a5a2f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5a2f.dir/link.txt --verbose=1
-/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_a5a2f.dir/CMakeCCompilerABI.c.o -o cmTC_a5a2f 
-clang version 10.0.0-4ubuntu1~18.04.2 
-Target: x86_64-pc-linux-gnu
-Thread model: posix
-InstalledDir: /usr/bin
-Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/8
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8
-Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
-Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
-Candidate multilib: .;@m64
-Selected multilib: .;@m64
-Found CUDA installation: /usr/local/cuda, version 7.0
- "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a5a2f /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_a5a2f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
-
-
-
-Parsed C implicit include dir info from above output: rv=done
-  found start of include info
-  found start of implicit include info
-    add: [/usr/local/include]
-    add: [/usr/lib/llvm-10/lib/clang/10.0.0/include]
-    add: [/usr/include/x86_64-linux-gnu]
-    add: [/usr/include]
-  end of search list found
-  collapse include dir [/usr/local/include] ==> [/usr/local/include]
-  collapse include dir [/usr/lib/llvm-10/lib/clang/10.0.0/include] ==> [/usr/lib/llvm-10/lib/clang/10.0.0/include]
-  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
-  collapse include dir [/usr/include] ==> [/usr/include]
-  implicit include dirs: [/usr/local/include;/usr/lib/llvm-10/lib/clang/10.0.0/include;/usr/include/x86_64-linux-gnu;/usr/include]
-
-
-Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp]
-  ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_a5a2f/fast && /usr/bin/make  -f CMakeFiles/cmTC_a5a2f.dir/build.make CMakeFiles/cmTC_a5a2f.dir/build]
-  ignore line: [make[1]: Entering directory '/home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_a5a2f.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -v -MD -MT CMakeFiles/cmTC_a5a2f.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a5a2f.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a5a2f.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
-  ignore line: [clang version 10.0.0-4ubuntu1~18.04.2 ]
-  ignore line: [Target: x86_64-pc-linux-gnu]
-  ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /usr/bin]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/8]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8]
-  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
-  ignore line: [Candidate multilib: .]
-  ignore line: [@m64]
-  ignore line: [Selected multilib: .]
-  ignore line: [@m64]
-  ignore line: [Found CUDA installation: /usr/local/cuda  version 7.0]
-  ignore line: [ (in-process)]
-  ignore line: [ "/usr/lib/llvm-10/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mframe-pointer=all -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-10/lib/clang/10.0.0 -dependency-file CMakeFiles/cmTC_a5a2f.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_a5a2f.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fdiagnostics-show-option -faddrsig -o CMakeFiles/cmTC_a5a2f.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
-  ignore line: [clang -cc1 version 10.0.0 based upon LLVM 10.0.0 default target x86_64-pc-linux-gnu]
-  ignore line: [ignoring nonexistent directory "/include"]
-  ignore line: [#include "..." search starts here:]
-  ignore line: [#include <...> search starts here:]
-  ignore line: [ /usr/local/include]
-  ignore line: [ /usr/lib/llvm-10/lib/clang/10.0.0/include]
-  ignore line: [ /usr/include/x86_64-linux-gnu]
-  ignore line: [ /usr/include]
-  ignore line: [End of search list.]
-  ignore line: [Linking C executable cmTC_a5a2f]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5a2f.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_a5a2f.dir/CMakeCCompilerABI.c.o -o cmTC_a5a2f ]
-  ignore line: [clang version 10.0.0-4ubuntu1~18.04.2 ]
-  ignore line: [Target: x86_64-pc-linux-gnu]
-  ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /usr/bin]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/8]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8]
-  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
-  ignore line: [Candidate multilib: .]
-  ignore line: [@m64]
-  ignore line: [Selected multilib: .]
-  ignore line: [@m64]
-  ignore line: [Found CUDA installation: /usr/local/cuda  version 7.0]
-  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a5a2f /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_a5a2f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o]
-    arg [/usr/bin/ld] ==> ignore
-    arg [-export-dynamic] ==> ignore
-    arg [-zrelro] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
-    arg [--build-id] ==> ignore
-    arg [--eh-frame-hdr] ==> ignore
-    arg [-m] ==> ignore
-    arg [elf_x86_64] ==> ignore
-    arg [-export-dynamic] ==> ignore
-    arg [-dynamic-linker] ==> ignore
-    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-    arg [-o] ==> ignore
-    arg [cmTC_a5a2f] ==> ignore
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o]
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o]
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o]
-    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
-    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu]
-    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
-    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
-    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
-    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../..] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../..]
-    arg [-L/usr/lib/llvm-10/bin/../lib] ==> dir [/usr/lib/llvm-10/bin/../lib]
-    arg [-L/lib] ==> dir [/lib]
-    arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_a5a2f.dir/CMakeCCompilerABI.c.o] ==> ignore
-    arg [-lgcc] ==> lib [gcc]
-    arg [--as-needed] ==> ignore
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [--no-as-needed] ==> ignore
-    arg [-lc] ==> lib [c]
-    arg [-lgcc] ==> lib [gcc]
-    arg [--as-needed] ==> ignore
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [--no-as-needed] ==> ignore
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o]
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o]
-  collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o] ==> [/usr/lib/x86_64-linux-gnu/crt1.o]
-  collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
-  collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o] ==> [/usr/lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o]
-  collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o] ==> [/usr/lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o]
-  collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
-  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0] ==> [/usr/lib/gcc/x86_64-linux-gnu/7.5.0]
-  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
-  collapse library dir [/lib/../lib64] ==> [/lib64]
-  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../..] ==> [/usr/lib]
-  collapse library dir [/usr/lib/llvm-10/bin/../lib] ==> [/usr/lib/llvm-10/lib]
-  collapse library dir [/lib] ==> [/lib]
-  collapse library dir [/usr/lib] ==> [/usr/lib]
-  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
-  implicit objs: [/usr/lib/x86_64-linux-gnu/crt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o;/usr/lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o;/usr/lib/x86_64-linux-gnu/crtn.o]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7.5.0;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/usr/lib/llvm-10/lib;/lib]
-  implicit fwks: []
-
-
-Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_efc14/fast && /usr/bin/make  -f CMakeFiles/cmTC_efc14.dir/build.make CMakeFiles/cmTC_efc14.dir/build
-make[1]: Entering directory '/home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_efc14.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++   -v -MD -MT CMakeFiles/cmTC_efc14.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_efc14.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_efc14.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
-clang version 10.0.0-4ubuntu1~18.04.2 
-Target: x86_64-pc-linux-gnu
-Thread model: posix
-InstalledDir: /usr/bin
-Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/8
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8
-Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
-Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
-Candidate multilib: .;@m64
-Selected multilib: .;@m64
-Found CUDA installation: /usr/local/cuda, version 7.0
- (in-process)
- "/usr/lib/llvm-10/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mframe-pointer=all -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-10/lib/clang/10.0.0 -dependency-file CMakeFiles/cmTC_efc14.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_efc14.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -faddrsig -o CMakeFiles/cmTC_efc14.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
-clang -cc1 version 10.0.0 based upon LLVM 10.0.0 default target x86_64-pc-linux-gnu
-ignoring nonexistent directory "/include"
-ignoring duplicate directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"
-#include "..." search starts here:
-#include <...> search starts here:
- /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0
- /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0
- /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward
- /usr/local/include
- /usr/lib/llvm-10/lib/clang/10.0.0/include
- /usr/include/x86_64-linux-gnu
- /usr/include
-End of search list.
-Linking CXX executable cmTC_efc14
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efc14.dir/link.txt --verbose=1
-/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_efc14.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_efc14 
-clang version 10.0.0-4ubuntu1~18.04.2 
-Target: x86_64-pc-linux-gnu
-Thread model: posix
-InstalledDir: /usr/bin
-Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/8
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8
-Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
-Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
-Candidate multilib: .;@m64
-Selected multilib: .;@m64
-Found CUDA installation: /usr/local/cuda, version 7.0
- "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_efc14 /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_efc14.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
-
-
-
-Parsed CXX implicit include dir info from above output: rv=done
-  found start of include info
-  found start of implicit include info
-    add: [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0]
-    add: [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0]
-    add: [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward]
-    add: [/usr/local/include]
-    add: [/usr/lib/llvm-10/lib/clang/10.0.0/include]
-    add: [/usr/include/x86_64-linux-gnu]
-    add: [/usr/include]
-  end of search list found
-  collapse include dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0] ==> [/usr/include/c++/7.5.0]
-  collapse include dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0] ==> [/usr/include/x86_64-linux-gnu/c++/7.5.0]
-  collapse include dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward] ==> [/usr/include/c++/7.5.0/backward]
-  collapse include dir [/usr/local/include] ==> [/usr/local/include]
-  collapse include dir [/usr/lib/llvm-10/lib/clang/10.0.0/include] ==> [/usr/lib/llvm-10/lib/clang/10.0.0/include]
-  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
-  collapse include dir [/usr/include] ==> [/usr/include]
-  implicit include dirs: [/usr/include/c++/7.5.0;/usr/include/x86_64-linux-gnu/c++/7.5.0;/usr/include/c++/7.5.0/backward;/usr/local/include;/usr/lib/llvm-10/lib/clang/10.0.0/include;/usr/include/x86_64-linux-gnu;/usr/include]
-
-
-Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp]
-  ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_efc14/fast && /usr/bin/make  -f CMakeFiles/cmTC_efc14.dir/build.make CMakeFiles/cmTC_efc14.dir/build]
-  ignore line: [make[1]: Entering directory '/home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_efc14.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++   -v -MD -MT CMakeFiles/cmTC_efc14.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_efc14.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_efc14.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [clang version 10.0.0-4ubuntu1~18.04.2 ]
-  ignore line: [Target: x86_64-pc-linux-gnu]
-  ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /usr/bin]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/8]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8]
-  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
-  ignore line: [Candidate multilib: .]
-  ignore line: [@m64]
-  ignore line: [Selected multilib: .]
-  ignore line: [@m64]
-  ignore line: [Found CUDA installation: /usr/local/cuda  version 7.0]
-  ignore line: [ (in-process)]
-  ignore line: [ "/usr/lib/llvm-10/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mframe-pointer=all -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-10/lib/clang/10.0.0 -dependency-file CMakeFiles/cmTC_efc14.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_efc14.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -faddrsig -o CMakeFiles/cmTC_efc14.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [clang -cc1 version 10.0.0 based upon LLVM 10.0.0 default target x86_64-pc-linux-gnu]
-  ignore line: [ignoring nonexistent directory "/include"]
-  ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"]
-  ignore line: [#include "..." search starts here:]
-  ignore line: [#include <...> search starts here:]
-  ignore line: [ /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0]
-  ignore line: [ /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0]
-  ignore line: [ /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward]
-  ignore line: [ /usr/local/include]
-  ignore line: [ /usr/lib/llvm-10/lib/clang/10.0.0/include]
-  ignore line: [ /usr/include/x86_64-linux-gnu]
-  ignore line: [ /usr/include]
-  ignore line: [End of search list.]
-  ignore line: [Linking CXX executable cmTC_efc14]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efc14.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_efc14.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_efc14 ]
-  ignore line: [clang version 10.0.0-4ubuntu1~18.04.2 ]
-  ignore line: [Target: x86_64-pc-linux-gnu]
-  ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /usr/bin]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/8]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8]
-  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
-  ignore line: [Candidate multilib: .]
-  ignore line: [@m64]
-  ignore line: [Selected multilib: .]
-  ignore line: [@m64]
-  ignore line: [Found CUDA installation: /usr/local/cuda  version 7.0]
-  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_efc14 /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_efc14.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o]
-    arg [/usr/bin/ld] ==> ignore
-    arg [-export-dynamic] ==> ignore
-    arg [-zrelro] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
-    arg [--build-id] ==> ignore
-    arg [--eh-frame-hdr] ==> ignore
-    arg [-m] ==> ignore
-    arg [elf_x86_64] ==> ignore
-    arg [-export-dynamic] ==> ignore
-    arg [-dynamic-linker] ==> ignore
-    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-    arg [-o] ==> ignore
-    arg [cmTC_efc14] ==> ignore
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o]
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o]
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o]
-    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
-    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu]
-    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
-    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
-    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
-    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../..] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../..]
-    arg [-L/usr/lib/llvm-10/bin/../lib] ==> dir [/usr/lib/llvm-10/bin/../lib]
-    arg [-L/lib] ==> dir [/lib]
-    arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_efc14.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-    arg [-lstdc++] ==> lib [stdc++]
-    arg [-lm] ==> lib [m]
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [-lgcc] ==> lib [gcc]
-    arg [-lc] ==> lib [c]
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [-lgcc] ==> lib [gcc]
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o]
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o]
-  collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o] ==> [/usr/lib/x86_64-linux-gnu/crt1.o]
-  collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
-  collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o] ==> [/usr/lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o]
-  collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o] ==> [/usr/lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o]
-  collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
-  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0] ==> [/usr/lib/gcc/x86_64-linux-gnu/7.5.0]
-  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
-  collapse library dir [/lib/../lib64] ==> [/lib64]
-  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../..] ==> [/usr/lib]
-  collapse library dir [/usr/lib/llvm-10/bin/../lib] ==> [/usr/lib/llvm-10/lib]
-  collapse library dir [/lib] ==> [/lib]
-  collapse library dir [/usr/lib] ==> [/usr/lib]
-  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
-  implicit objs: [/usr/lib/x86_64-linux-gnu/crt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o;/usr/lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o;/usr/lib/x86_64-linux-gnu/crtn.o]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7.5.0;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/usr/lib/llvm-10/lib;/lib]
-  implicit fwks: []
-
-
-Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_cab1d/fast && /usr/bin/make  -f CMakeFiles/cmTC_cab1d.dir/build.make CMakeFiles/cmTC_cab1d.dir/build
-make[1]: Entering directory '/home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cab1d.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -MD -MT CMakeFiles/cmTC_cab1d.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_cab1d.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_cab1d.dir/CheckIncludeFile.c.o -c /home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_cab1d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cab1d.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_cab1d.dir/CheckIncludeFile.c.o -o cmTC_cab1d 
-make[1]: Leaving directory '/home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
-
-
-
-Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_b0ccf/fast && /usr/bin/make  -f CMakeFiles/cmTC_b0ccf.dir/build.make CMakeFiles/cmTC_b0ccf.dir/build
-make[1]: Entering directory '/home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b0ccf.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -MD -MT CMakeFiles/cmTC_b0ccf.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_b0ccf.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_b0ccf.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.21/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b0ccf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0ccf.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_b0ccf.dir/CheckFunctionExists.c.o -o cmTC_b0ccf  -lpthread 
-make[1]: Leaving directory '/home/panos/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e2285/fast && /usr/bin/make  -f CMakeFiles/cmTC_e2285.dir/build.make CMakeFiles/cmTC_e2285.dir/build
+make[1]: Entering directory '/home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2285.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -MD -MT CMakeFiles/cmTC_e2285.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_e2285.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_e2285.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e2285
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2285.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_e2285.dir/CheckFunctionExists.c.o -o cmTC_e2285  -lpthread 
+make[1]: Leaving directory '/home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
 
 
 
