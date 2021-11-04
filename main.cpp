@@ -43,6 +43,14 @@ vector<element> rangeQuery(btree_mm btree, float min, float max){
 	return candidateSet;
 }
 
+bool overlaps(torch::Tensor p, torch::Tensor lowerCorner, torch::Tensor upperCorner){
+        for(long dim = 0; dim < p.sizes()[1]; dim++){
+            if (p.index({0,dim}).item<float>() < lowerCorner.index({0,dim}).item<float>() || p.index({0,dim}).item<float>() > upperCorner.index({0,dim}).item<float>())
+                return false;
+        }
+        return true;
+}
+
 int main() {
 
 	btree_mm btree;
@@ -66,7 +74,7 @@ int main() {
 	auto encodeLoader = torch::data::make_data_loader<torch::data::samplers::RandomSampler>(move(dataset1), 1);
 
 	//Queries
-    auto qSet = CustomQueryset("../data/4D-qI0_norm").map(torch::data::transforms::Stack<>());
+    auto qSet = CustomQueryset("../data/4D-qI0_norm_1000").map(torch::data::transforms::Stack<>());
 	auto numQueries = qSet.size().value();
 	cout << "Queryset size:" << qSet.size().value() << endl;
 	auto qLoader = torch::data::make_data_loader<torch::data::samplers::RandomSampler>(move(qSet), 1);
@@ -114,7 +122,13 @@ int main() {
 		auto q = batch.data;
 		float low = model->encode(batch.data).item<double>();
 		float high = model->encode(batch.target).item<double>();
-		auto res = rangeQuery(btree, low, high);
-		cout << low << " " <<  high << " " <<  res.size() << endl;
+		leaf_count = 1;
+		auto candidate_set = rangeQuery(btree, low, high);
+		vector<element> res;
+		for (auto c: candidate_set){
+			if (overlaps(c.point, batch.data, batch.target))
+				res.push_back(c);
+		}
+		cout << leaf_count << " " <<  res.size() << endl;
 	}
 }
