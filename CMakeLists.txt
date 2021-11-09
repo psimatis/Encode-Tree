@@ -3,8 +3,6 @@ project(example-app)
 
 set(EXECUTABLE_NAME tensor-experiment)
 
-#set(CMAKE_PREFIX_PATH /home/weizhen/Documents/libtorch)
-#set(Torch_DIR /home/PROJECTS/libtorch/libtorch/share/cmake/Torch)
 set(Torch_DIR /home/PROJECTS/Landmarks/libtorch/share/cmake/Torch)
 find_package(Torch REQUIRED)
 

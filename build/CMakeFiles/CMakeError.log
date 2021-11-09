@@ -1,25 +1,25 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_75836/fast && /usr/bin/make  -f CMakeFiles/cmTC_75836.dir/build.make CMakeFiles/cmTC_75836.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f1312/fast && /usr/bin/make  -f CMakeFiles/cmTC_f1312.dir/build.make CMakeFiles/cmTC_f1312.dir/build
 make[1]: Entering directory '/home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_75836.dir/src.c.o
-/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_75836.dir/src.c.o -MF CMakeFiles/cmTC_75836.dir/src.c.o.d -o CMakeFiles/cmTC_75836.dir/src.c.o -c /home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_75836
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75836.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_75836.dir/src.c.o -o cmTC_75836 
-CMakeFiles/cmTC_75836.dir/src.c.o: In function `main':
+Building C object CMakeFiles/cmTC_f1312.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_f1312.dir/src.c.o -MF CMakeFiles/cmTC_f1312.dir/src.c.o.d -o CMakeFiles/cmTC_f1312.dir/src.c.o -c /home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f1312
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1312.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_f1312.dir/src.c.o -o cmTC_f1312 
+CMakeFiles/cmTC_f1312.dir/src.c.o: In function `main':
 src.c:(.text+0x25): undefined reference to `pthread_create'
 src.c:(.text+0x31): undefined reference to `pthread_detach'
 src.c:(.text+0x3d): undefined reference to `pthread_cancel'
 src.c:(.text+0x4f): undefined reference to `pthread_join'
 src.c:(.text+0x66): undefined reference to `pthread_atfork'
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
-CMakeFiles/cmTC_75836.dir/build.make:99: recipe for target 'cmTC_75836' failed
-make[1]: *** [cmTC_75836] Error 1
+CMakeFiles/cmTC_f1312.dir/build.make:99: recipe for target 'cmTC_f1312' failed
+make[1]: *** [cmTC_f1312] Error 1
 make[1]: Leaving directory '/home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_75836/fast' failed
-make: *** [cmTC_75836/fast] Error 2
+Makefile:127: recipe for target 'cmTC_f1312/fast' failed
+make: *** [cmTC_f1312/fast] Error 2
 
 
 Source file was:
@@ -46,20 +46,20 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_1d66f/fast && /usr/bin/make  -f CMakeFiles/cmTC_1d66f.dir/build.make CMakeFiles/cmTC_1d66f.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7d7d2/fast && /usr/bin/make  -f CMakeFiles/cmTC_7d7d2.dir/build.make CMakeFiles/cmTC_7d7d2.dir/build
 make[1]: Entering directory '/home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1d66f.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -MD -MT CMakeFiles/cmTC_1d66f.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_1d66f.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_1d66f.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.21/Modules/CheckFunctionExists.c
-Linking C executable cmTC_1d66f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d66f.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_1d66f.dir/CheckFunctionExists.c.o -o cmTC_1d66f  -lpthreads 
+Building C object CMakeFiles/cmTC_7d7d2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -MD -MT CMakeFiles/cmTC_7d7d2.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_7d7d2.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_7d7d2.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7d7d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d7d2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_7d7d2.dir/CheckFunctionExists.c.o -o cmTC_7d7d2  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
-CMakeFiles/cmTC_1d66f.dir/build.make:99: recipe for target 'cmTC_1d66f' failed
-make[1]: *** [cmTC_1d66f] Error 1
+CMakeFiles/cmTC_7d7d2.dir/build.make:99: recipe for target 'cmTC_7d7d2' failed
+make[1]: *** [cmTC_7d7d2] Error 1
 make[1]: Leaving directory '/home/PROJECTS/encode-tree/encode-tree-cpp/build/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_1d66f/fast' failed
-make: *** [cmTC_1d66f/fast] Error 2
+Makefile:127: recipe for target 'cmTC_7d7d2/fast' failed
+make: *** [cmTC_7d7d2/fast] Error 2
 
 
 

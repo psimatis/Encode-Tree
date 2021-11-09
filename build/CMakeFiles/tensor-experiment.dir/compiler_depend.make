@@ -2002,7 +2002,8 @@ CMakeFiles/tensor-experiment.dir/main.cpp.o: ../main.cpp \
   ../autoencoder.h \
   ../tlx/container/btree_multimap.hpp \
   ../tlx/container/btree.hpp \
-  ../tlx/die/core.hpp
+  ../tlx/die/core.hpp \
+  ../encode_tree.h
 
 
 ../tlx/container/btree.hpp:
@@ -2892,6 +2893,8 @@ CMakeFiles/tensor-experiment.dir/main.cpp.o: ../main.cpp \
 /home/PROJECTS/Landmarks/libtorch/include/torch/csrc/api/include/torch/arg.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+../encode_tree.h:
 
 /home/PROJECTS/Landmarks/libtorch/include/ATen/core/Macros.h:
 
