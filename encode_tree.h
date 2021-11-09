@@ -42,8 +42,8 @@ class encode_tree{
         AEImpl* model;
         vector<pair<float, element>> bulk_data;
 
-    encode_tree(int dimensions, int hSize, int codeSize, int depth){
-        model = new AEImpl(dimensions, hSize, codeSize, depth);
+    encode_tree(int dimensions, int hSize, int codeSize){
+        model = new AEImpl(dimensions, hSize, codeSize);
     }
 
     void train(int epochs, float learning_rate, int batchSize, string path){
@@ -95,8 +95,13 @@ class encode_tree{
     }
 
     vector<element> range_query(torch::Tensor low_t, torch::Tensor high_t){
-        float low = model->encode(low_t).item<double>();
+        float low = model->encode(low_t).item<double>();        
         float high = model->encode(high_t).item<double>();
+        if (low > high) {
+        	float temp = low;
+        	low = high;
+        	high = temp;
+        }
         leaf_count = 1;
         vector<element> res;
         vector<element> candidate_set;

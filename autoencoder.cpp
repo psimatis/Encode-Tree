@@ -2,49 +2,31 @@
 
 using namespace std;
 
-AEImpl::AEImpl(int64_t inputSize, int64_t hSize, int64_t codeSize, int depth1) { 
-	depth = depth1;
-	int layer = 0; 
-	int i = 0;
-	string l;
-	
-	fcs.push_back(register_module("fc0", torch::nn::Linear(inputSize, hSize)));
-	layer++;
-	for (i = layer; i < layer + depth; i++){
-		l = "fc" + to_string(i);
-		fcs.push_back(register_module(l, torch::nn::Linear(hSize, hSize)));
-	}
-	layer += depth;
-
-	l = "fc" + to_string(layer);
-	fcs.push_back(register_module(l, torch::nn::Linear(hSize, codeSize)));
-	layer++;
-	
-	l = "fc" + to_string(layer);
-	fcs.push_back(register_module(l, torch::nn::Linear(codeSize, hSize)));
-
-	for (i = layer + 1; i < layer + depth; i++){
-		l = "fc" + to_string(i);
-		fcs.push_back(register_module(l, torch::nn::Linear(hSize, hSize)));
-	}
-	layer += depth;
-	
-	l = "fc" + to_string(layer);
-    fcs.push_back(register_module(l, torch::nn::Linear(hSize, inputSize)));   
+AEImpl::AEImpl(int64_t inputSize, int64_t hSize, int64_t codeSize)
+    : fc1(inputSize, hSize), fc2(hSize, hSize), fc3(hSize, hSize), fc4(hSize, codeSize), // encoder
+    fc5(codeSize, hSize), fc6(hSize, hSize), fc7(hSize, hSize), fc8(hSize, inputSize) { // decoder
+    register_module("fc1", fc1);
+    register_module("fc2", fc2);
+    register_module("fc3", fc3);
+    register_module("fc4", fc4);
+    register_module("fc5", fc5);
+    register_module("fc6", fc6);
+    register_module("fc7", fc7);
+    register_module("fc8", fc8);
 }
 
 torch::Tensor AEImpl::encode(torch::Tensor x) {
-	auto h = x;
-	for (int i = 0; i < depth + 1; i++)
-    	h = torch::nn::functional::relu(fcs[i]->forward(h));
-    return fcs[depth + 1]->forward(h);
+    auto h = torch::nn::functional::relu(fc1->forward(x));
+    auto h2 = torch::nn::functional::relu(fc2->forward(h));
+    auto h3 = torch::nn::functional::relu(fc3->forward(h2));
+    return fc4->forward(h3);
 }
 
 torch::Tensor AEImpl::decode(torch::Tensor z) {
-    auto h = z;
-    for (int i = depth + 2; i < fcs.size() - 1; i++)
-    	h = torch::nn::functional::relu(fcs[i]->forward(h));
-    return fcs[fcs.size() - 1]->forward(h);
+    auto h = torch::nn::functional::relu(fc5->forward(z));
+    auto h2 = torch::nn::functional::relu(fc6->forward(h));
+    auto h3 = torch::nn::functional::relu(fc7->forward(h2));
+    return fc8->forward(h3);
 }
 
 torch::Tensor AEImpl::forward(torch::Tensor x) {
