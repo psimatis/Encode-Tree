@@ -39,9 +39,8 @@ pair<torch::Tensor, torch::Tensor> read_queries(const string& path) {
 
    	int dim = -1;
    	vector<float> q = process_queries(data, dim);
-    vector<float> low;
-    vector<float> high;
-    for (size_t i = 0; i < q.size()/(2*dim); i += 2*dim){
+    vector<float> low, high;
+    for (size_t i = 0; i < q.size(); i += 2*dim){
         low.insert(low.end(), q.begin() + i, q.begin() + i + dim);
         high.insert(high.end(), q.begin() + i + dim, q.begin() + i + 2*dim);
     }
