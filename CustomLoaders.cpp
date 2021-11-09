@@ -39,10 +39,14 @@ pair<torch::Tensor, torch::Tensor> read_queries(const string& path) {
 
    	int dim = -1;
    	vector<float> q = process_queries(data, dim);
-   	vector<float> low(q.begin(), q.begin() + dim/2);
-   	vector<float> high(q.begin() + dim/2, q.end());
-   	auto lowT = torch::from_blob(low.data(), {int(q.size()/(dim/2)), dim/2}).clone();
-   	auto highT = torch::from_blob(high.data(), {int(q.size()/(dim/2)), dim/2}).clone();
+    vector<float> low;
+    vector<float> high;
+    for (size_t i = 0; i < q.size()/(2*dim); i += 2*dim){
+        low.insert(low.end(), q.begin() + i, q.begin() + i + dim);
+        high.insert(high.end(), q.begin() + i + dim, q.begin() + i + 2*dim);
+    }
+   	auto lowT = torch::from_blob(low.data(), {int(low.size()/dim), dim}).clone();
+   	auto highT = torch::from_blob(high.data(), {int(high.size()/dim), dim}).clone();
 
    	return {lowT, highT};
 }

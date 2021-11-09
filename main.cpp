@@ -22,20 +22,11 @@ int main() {
     const double learning_rate = 0.001;
     string path = "../data/4D-1e6_norm.csv";
 
-	// Data
- //    auto dataset = CustomDataset("../data/4D-1e6_norm.csv").map(torch::data::transforms::Stack<>());
- //    auto dataset1 = CustomDataset("../data/4D-1e6_norm.csv").map(torch::data::transforms::Stack<>());
-	// auto num_samples = dataset.size().value();
-	// cout << "Dataset size:" << dataset.size().value() << endl;
-	// auto dataloader = torch::data::make_data_loader<torch::data::samplers::RandomSampler>(move(dataset), batchSize);
-	// auto encodeLoader = torch::data::make_data_loader<torch::data::samplers::RandomSampler>(move(dataset1), 1);
-
 	//Queries
-    auto qSet = CustomQueryset("../data/4D-qI0_norm_1000").map(torch::data::transforms::Stack<>());
+    auto qSet = CustomQueryset("../data/4D-qI0_norm_1").map(torch::data::transforms::Stack<>());
 	auto numQueries = qSet.size().value();
 	cout << "Queryset size:" << qSet.size().value() << endl;
 	auto qLoader = torch::data::make_data_loader<torch::data::samplers::RandomSampler>(move(qSet), 1);
-
 
     // Model
 	encode_tree tree(dimensions, hSize, codeSize, depth);
@@ -48,6 +39,9 @@ int main() {
     cout << "Build done" << endl;
 	// Queries
 	for (auto& batch: *qLoader){
+		cout << "batch.data:" << batch.data << endl;
+		cout << "batch.target:" << batch.target << endl;
 		tree.range_query(batch.data, batch.target);
+		break;
 	}
 }
