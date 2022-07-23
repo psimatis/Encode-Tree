@@ -6,6 +6,7 @@
 **Solution:** 1) Use machine learning (i.e., Autoencoders) to automatically reduce the data dimensionality and 2) index the embedded space using a conventional index structure (e.g., B+-Tree).
 
 **Input:** Multidimensional data in tabular form (e.g., Spotify songs)
+
 **Output:** An index for efficient multidimensional queries.
 
 **Notes:** 
