@@ -21,10 +21,10 @@ int main() {
     const int64_t batchSize = 1024;
     const size_t epochs = 3;
     const double learning_rate = 0.001;
-    string path = "../data/4D-1e6_norm.csv";
+    string path = "...";
 
 	//Queries
-    auto qSet = CustomQueryset("../data/4D-qI0_norm_1000").map(torch::data::transforms::Stack<>());
+    auto qSet = CustomQueryset("...").map(torch::data::transforms::Stack<>());
 	auto numQueries = qSet.size().value();
 	cout << "Queryset size:" << qSet.size().value() << endl;
 	auto qLoader = torch::data::make_data_loader<torch::data::samplers::SequentialSampler>(move(qSet), 1);
